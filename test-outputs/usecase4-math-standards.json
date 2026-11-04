@@ -1,0 +1,260 @@
+{
+  "CFDocument": {
+    "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437",
+    "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437",
+    "creator": "Mrs. Johnson",
+    "title": "3rd Grade Math Pacing Guide - Fall Semester",
+    "lastChangeDateTime": "2026-03-11T20:16:00Z",
+    "caseVersion": "1.1",
+    "description": "Teacher-authored pacing guide for 3rd grade mathematics, Fall semester. Covers place value, operations, fractions, and measurement with CCSS alignment.",
+    "subject": ["Mathematics"],
+    "subjectURI": [
+      {
+        "title": "Mathematics",
+        "identifier": "cec1e17f-9e3d-45a6-82d3-e2316a291ecc",
+        "uri": "urn:uuid:cec1e17f-9e3d-45a6-82d3-e2316a291ecc"
+      }
+    ],
+    "language": "en-US",
+    "version": "Fall 2025",
+    "adoptionStatus": "Draft",
+    "statusStartDate": "2025-08-15",
+    "statusEndDate": "2025-12-19",
+    "frameworkType": "Pacing Guide",
+    "educationLevel": ["03"],
+    "notes": "Informal teacher pacing notes aligned to Common Core State Standards (CCSS). Week ranges are approximate.",
+    "CFPackageURI": {
+      "title": "3rd Grade Math Pacing Guide - Fall Semester",
+      "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437",
+      "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437"
+    }
+  },
+  "CFItems": [
+    {
+      "identifier": "592374ec-3f65-444d-ba72-c163a000245a",
+      "uri": "urn:uuid:592374ec-3f65-444d-ba72-c163a000245a",
+      "fullStatement": "Place Value and Rounding: Understand that a hundreds digit is 10 times the tens digit. Round whole numbers to the nearest 10 and 100 using number lines.",
+      "humanCodingScheme": "Unit 1",
+      "abbreviatedStatement": "Place Value and Rounding",
+      "CFItemType": "Topic",
+      "CFItemTypeURI": { "title": "Topic", "identifier": "fb67c4e7-99bd-40ee-83bc-349b8a305223", "uri": "urn:uuid:fb67c4e7-99bd-40ee-83bc-349b8a305223" },
+      "educationLevel": ["03"],
+      "language": "en-US",
+      "conceptKeywords": ["place value", "rounding", "number line"],
+      "subject": ["Mathematics"],
+      "notes": "Weeks 1-3. Relates to CCSS 3.NBT.1",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" }
+    },
+    {
+      "identifier": "9223a9dd-c6b1-4cf5-b458-8f08a6c8e7a2",
+      "uri": "urn:uuid:9223a9dd-c6b1-4cf5-b458-8f08a6c8e7a2",
+      "fullStatement": "Addition and Subtraction within 1000: Fluently add and subtract within 1000 using strategies based on place value. Solve word problems involving addition and subtraction of money amounts. Students must show work using multiple strategies (number line, expanded form, standard algorithm).",
+      "humanCodingScheme": "Unit 2",
+      "abbreviatedStatement": "Addition and Subtraction within 1000",
+      "CFItemType": "Topic",
+      "CFItemTypeURI": { "title": "Topic", "identifier": "fb67c4e7-99bd-40ee-83bc-349b8a305223", "uri": "urn:uuid:fb67c4e7-99bd-40ee-83bc-349b8a305223" },
+      "educationLevel": ["03"],
+      "language": "en-US",
+      "conceptKeywords": ["addition", "subtraction", "place value strategies", "word problems", "money"],
+      "subject": ["Mathematics"],
+      "notes": "Weeks 4-6. Relates to CCSS 3.NBT.2, 3.OA.8",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" }
+    },
+    {
+      "identifier": "f3a18c91-b532-4743-89b2-cc44e75dad38",
+      "uri": "urn:uuid:f3a18c91-b532-4743-89b2-cc44e75dad38",
+      "fullStatement": "Multiplication Concepts: Interpret products of whole numbers (e.g., 5 x 7 = total objects in 5 groups of 7). Model using arrays and equal groups. Understand properties of multiplication (commutative, associative, distributive).",
+      "humanCodingScheme": "Unit 3",
+      "abbreviatedStatement": "Multiplication Concepts",
+      "CFItemType": "Topic",
+      "CFItemTypeURI": { "title": "Topic", "identifier": "fb67c4e7-99bd-40ee-83bc-349b8a305223", "uri": "urn:uuid:fb67c4e7-99bd-40ee-83bc-349b8a305223" },
+      "educationLevel": ["03"],
+      "language": "en-US",
+      "conceptKeywords": ["multiplication", "arrays", "equal groups", "commutative property", "associative property", "distributive property"],
+      "subject": ["Mathematics"],
+      "notes": "Weeks 7-9. Relates to CCSS 3.OA.1, 3.OA.5",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" }
+    },
+    {
+      "identifier": "200cf55d-1ed2-4e89-b634-76bcd604b977",
+      "uri": "urn:uuid:200cf55d-1ed2-4e89-b634-76bcd604b977",
+      "fullStatement": "Division Concepts: Interpret quotients (how many in each group vs. how many groups). Understand the relationship between multiplication and division. Determine unknown whole number in multiplication/division equations.",
+      "humanCodingScheme": "Unit 4",
+      "abbreviatedStatement": "Division Concepts",
+      "CFItemType": "Topic",
+      "CFItemTypeURI": { "title": "Topic", "identifier": "fb67c4e7-99bd-40ee-83bc-349b8a305223", "uri": "urn:uuid:fb67c4e7-99bd-40ee-83bc-349b8a305223" },
+      "educationLevel": ["03"],
+      "language": "en-US",
+      "conceptKeywords": ["division", "quotients", "equal groups", "inverse operations", "unknown numbers"],
+      "subject": ["Mathematics"],
+      "notes": "Weeks 10-12. Relates to CCSS 3.OA.2, 3.OA.4, 3.OA.6",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" }
+    },
+    {
+      "identifier": "24b944f3-9c3b-47ea-b6cb-9ad7c6a3fe95",
+      "uri": "urn:uuid:24b944f3-9c3b-47ea-b6cb-9ad7c6a3fe95",
+      "fullStatement": "Fractions: Understand fractions as part of a whole, partition shapes into equal parts. Represent fractions on a number line. Compare fractions with the same numerator or denominator. Identify equivalent fractions in simple cases.",
+      "humanCodingScheme": "Unit 5",
+      "abbreviatedStatement": "Fractions",
+      "CFItemType": "Topic",
+      "CFItemTypeURI": { "title": "Topic", "identifier": "fb67c4e7-99bd-40ee-83bc-349b8a305223", "uri": "urn:uuid:fb67c4e7-99bd-40ee-83bc-349b8a305223" },
+      "educationLevel": ["03"],
+      "language": "en-US",
+      "conceptKeywords": ["fractions", "number line", "equivalent fractions", "comparing fractions", "partitioning"],
+      "subject": ["Mathematics"],
+      "notes": "Weeks 13-15. Relates to CCSS 3.NF.1, 3.NF.2, 3.NF.3",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" }
+    },
+    {
+      "identifier": "657c8171-5a68-4037-ae75-026c45f691d0",
+      "uri": "urn:uuid:657c8171-5a68-4037-ae75-026c45f691d0",
+      "fullStatement": "Measurement and Data: Tell time to the nearest minute. Measure liquid volumes and masses. Create picture graphs and bar graphs. Understand area as tiling. Relate area to multiplication.",
+      "humanCodingScheme": "Unit 6",
+      "abbreviatedStatement": "Measurement and Data",
+      "CFItemType": "Topic",
+      "CFItemTypeURI": { "title": "Topic", "identifier": "fb67c4e7-99bd-40ee-83bc-349b8a305223", "uri": "urn:uuid:fb67c4e7-99bd-40ee-83bc-349b8a305223" },
+      "educationLevel": ["03"],
+      "language": "en-US",
+      "conceptKeywords": ["time", "measurement", "liquid volume", "mass", "graphs", "area", "tiling"],
+      "subject": ["Mathematics"],
+      "notes": "Weeks 16-18. Relates to CCSS 3.MD.1, 3.MD.2, 3.MD.3, 3.MD.5, 3.MD.7",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" }
+    }
+  ],
+  "CFAssociations": [
+    {
+      "identifier": "2ce839ac-03e8-43e5-a34e-1639b0d0ee69",
+      "uri": "urn:uuid:2ce839ac-03e8-43e5-a34e-1639b0d0ee69",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Place Value and Rounding", "identifier": "592374ec-3f65-444d-ba72-c163a000245a", "uri": "urn:uuid:592374ec-3f65-444d-ba72-c163a000245a", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "216f781f-fc7e-42a8-b50c-0a11cdb8eba6",
+      "uri": "urn:uuid:216f781f-fc7e-42a8-b50c-0a11cdb8eba6",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Addition and Subtraction within 1000", "identifier": "9223a9dd-c6b1-4cf5-b458-8f08a6c8e7a2", "uri": "urn:uuid:9223a9dd-c6b1-4cf5-b458-8f08a6c8e7a2", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "8c1da914-68c0-4d0e-83e1-9b8891bf2ed9",
+      "uri": "urn:uuid:8c1da914-68c0-4d0e-83e1-9b8891bf2ed9",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Multiplication Concepts", "identifier": "f3a18c91-b532-4743-89b2-cc44e75dad38", "uri": "urn:uuid:f3a18c91-b532-4743-89b2-cc44e75dad38", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "345006b1-2da6-470a-b29e-71960eef41da",
+      "uri": "urn:uuid:345006b1-2da6-470a-b29e-71960eef41da",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Division Concepts", "identifier": "200cf55d-1ed2-4e89-b634-76bcd604b977", "uri": "urn:uuid:200cf55d-1ed2-4e89-b634-76bcd604b977", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "sequenceNumber": 4,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "47011315-c7c6-4be0-a260-a3576e7b87e2",
+      "uri": "urn:uuid:47011315-c7c6-4be0-a260-a3576e7b87e2",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Fractions", "identifier": "24b944f3-9c3b-47ea-b6cb-9ad7c6a3fe95", "uri": "urn:uuid:24b944f3-9c3b-47ea-b6cb-9ad7c6a3fe95", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "sequenceNumber": 5,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "bcc76d85-9242-4743-b7a0-ebb696a9c5df",
+      "uri": "urn:uuid:bcc76d85-9242-4743-b7a0-ebb696a9c5df",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Measurement and Data", "identifier": "657c8171-5a68-4037-ae75-026c45f691d0", "uri": "urn:uuid:657c8171-5a68-4037-ae75-026c45f691d0", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "sequenceNumber": 6,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "1478ba31-17a6-4012-86a6-aff1f26d8308",
+      "uri": "urn:uuid:1478ba31-17a6-4012-86a6-aff1f26d8308",
+      "associationType": "precedes",
+      "originNodeURI": { "title": "Place Value and Rounding", "identifier": "592374ec-3f65-444d-ba72-c163a000245a", "uri": "urn:uuid:592374ec-3f65-444d-ba72-c163a000245a", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Addition and Subtraction within 1000", "identifier": "9223a9dd-c6b1-4cf5-b458-8f08a6c8e7a2", "uri": "urn:uuid:9223a9dd-c6b1-4cf5-b458-8f08a6c8e7a2", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "cf46ade7-07a9-479b-9674-150b92cb624d",
+      "uri": "urn:uuid:cf46ade7-07a9-479b-9674-150b92cb624d",
+      "associationType": "precedes",
+      "originNodeURI": { "title": "Addition and Subtraction within 1000", "identifier": "9223a9dd-c6b1-4cf5-b458-8f08a6c8e7a2", "uri": "urn:uuid:9223a9dd-c6b1-4cf5-b458-8f08a6c8e7a2", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Multiplication Concepts", "identifier": "f3a18c91-b532-4743-89b2-cc44e75dad38", "uri": "urn:uuid:f3a18c91-b532-4743-89b2-cc44e75dad38", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "53e70657-dd3a-4e7f-a79b-decb76d97185",
+      "uri": "urn:uuid:53e70657-dd3a-4e7f-a79b-decb76d97185",
+      "associationType": "precedes",
+      "originNodeURI": { "title": "Multiplication Concepts", "identifier": "f3a18c91-b532-4743-89b2-cc44e75dad38", "uri": "urn:uuid:f3a18c91-b532-4743-89b2-cc44e75dad38", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Division Concepts", "identifier": "200cf55d-1ed2-4e89-b634-76bcd604b977", "uri": "urn:uuid:200cf55d-1ed2-4e89-b634-76bcd604b977", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "37aa755a-0961-4a1c-93f9-2d03741f2175",
+      "uri": "urn:uuid:37aa755a-0961-4a1c-93f9-2d03741f2175",
+      "associationType": "precedes",
+      "originNodeURI": { "title": "Division Concepts", "identifier": "200cf55d-1ed2-4e89-b634-76bcd604b977", "uri": "urn:uuid:200cf55d-1ed2-4e89-b634-76bcd604b977", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Fractions", "identifier": "24b944f3-9c3b-47ea-b6cb-9ad7c6a3fe95", "uri": "urn:uuid:24b944f3-9c3b-47ea-b6cb-9ad7c6a3fe95", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "333f3283-697a-409c-b6b1-eb0d81219d71",
+      "uri": "urn:uuid:333f3283-697a-409c-b6b1-eb0d81219d71",
+      "associationType": "precedes",
+      "originNodeURI": { "title": "Fractions", "identifier": "24b944f3-9c3b-47ea-b6cb-9ad7c6a3fe95", "uri": "urn:uuid:24b944f3-9c3b-47ea-b6cb-9ad7c6a3fe95", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Measurement and Data", "identifier": "657c8171-5a68-4037-ae75-026c45f691d0", "uri": "urn:uuid:657c8171-5a68-4037-ae75-026c45f691d0", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "3rd Grade Math Pacing Guide - Fall Semester", "identifier": "ff5c7a8b-f2ca-4022-8ceb-3f2392278437", "uri": "urn:uuid:ff5c7a8b-f2ca-4022-8ceb-3f2392278437" },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    }
+  ],
+  "CFDefinitions": {
+    "CFSubjects": [
+      {
+        "identifier": "cec1e17f-9e3d-45a6-82d3-e2316a291ecc",
+        "uri": "urn:uuid:cec1e17f-9e3d-45a6-82d3-e2316a291ecc",
+        "title": "Mathematics",
+        "description": "Grade 3 Mathematics",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFItemTypes": [
+      {
+        "identifier": "fb67c4e7-99bd-40ee-83bc-349b8a305223",
+        "uri": "urn:uuid:fb67c4e7-99bd-40ee-83bc-349b8a305223",
+        "title": "Topic",
+        "description": "A unit-level topic grouping standards for a pacing window",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFConcepts": [],
+    "CFLicenses": [],
+    "CFAssociationGroupings": []
+  }
+}

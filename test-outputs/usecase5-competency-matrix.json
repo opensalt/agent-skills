@@ -1,0 +1,314 @@
+{
+  "CFDocument": {
+    "identifier": "784097c6-97d4-432f-8969-90d15c004189",
+    "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189",
+    "creator": "Acme Corp",
+    "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026",
+    "lastChangeDateTime": "2026-03-11T20:16:00Z",
+    "caseVersion": "1.1",
+    "description": "Competency matrix for Data Engineering roles at Acme Corp, defining skill expectations across Junior, Mid, Senior, and Staff levels.",
+    "publisher": "Acme Corp",
+    "subject": ["Data Engineering"],
+    "subjectURI": [
+      {
+        "title": "Data Engineering",
+        "identifier": "6ce0e494-618d-46fe-99fb-5458235ed523",
+        "uri": "urn:uuid:6ce0e494-618d-46fe-99fb-5458235ed523"
+      }
+    ],
+    "language": "en-US",
+    "version": "Q1 2026",
+    "adoptionStatus": "Adopted",
+    "statusStartDate": "2026-01-01",
+    "frameworkType": "Corporate Competency Framework",
+    "CFPackageURI": {
+      "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026",
+      "identifier": "784097c6-97d4-432f-8969-90d15c004189",
+      "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189"
+    }
+  },
+  "CFItems": [
+    {
+      "identifier": "7f13047e-370a-470a-8775-8f0e33265f89",
+      "uri": "urn:uuid:7f13047e-370a-470a-8775-8f0e33265f89",
+      "fullStatement": "Design normalized relational schemas for production data systems.",
+      "humanCodingScheme": "DE.1",
+      "abbreviatedStatement": "Data Modeling",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": { "title": "Skill", "identifier": "79e739db-4e5d-4a95-90ce-b3ff98b03439", "uri": "urn:uuid:79e739db-4e5d-4a95-90ce-b3ff98b03439" },
+      "language": "en-US",
+      "conceptKeywords": ["data modeling", "relational schemas", "ER diagrams", "normalization"],
+      "subject": ["Data Engineering"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" }
+    },
+    {
+      "identifier": "a5402b8f-a6ff-4ea1-98b6-74a17cdfd749",
+      "uri": "urn:uuid:a5402b8f-a6ff-4ea1-98b6-74a17cdfd749",
+      "fullStatement": "Build and maintain data pipelines for ETL/ELT workflows.",
+      "humanCodingScheme": "DE.2",
+      "abbreviatedStatement": "ETL/ELT",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": { "title": "Skill", "identifier": "79e739db-4e5d-4a95-90ce-b3ff98b03439", "uri": "urn:uuid:79e739db-4e5d-4a95-90ce-b3ff98b03439" },
+      "language": "en-US",
+      "conceptKeywords": ["ETL", "ELT", "data pipelines", "Airflow", "Kafka", "Flink"],
+      "subject": ["Data Engineering"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" }
+    },
+    {
+      "identifier": "2b0e0cc8-c7ab-4661-88c6-b16b44d7d6f3",
+      "uri": "urn:uuid:2b0e0cc8-c7ab-4661-88c6-b16b44d7d6f3",
+      "fullStatement": "Write efficient analytical queries using SQL.",
+      "humanCodingScheme": "DE.3",
+      "abbreviatedStatement": "SQL Proficiency",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": { "title": "Skill", "identifier": "79e739db-4e5d-4a95-90ce-b3ff98b03439", "uri": "urn:uuid:79e739db-4e5d-4a95-90ce-b3ff98b03439" },
+      "language": "en-US",
+      "conceptKeywords": ["SQL", "window functions", "CTEs", "query optimization", "query plans"],
+      "subject": ["Data Engineering"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" }
+    },
+    {
+      "identifier": "64b66b15-c747-47f1-88aa-8c0d6f1e07b6",
+      "uri": "urn:uuid:64b66b15-c747-47f1-88aa-8c0d6f1e07b6",
+      "fullStatement": "Manage cloud data services and infrastructure.",
+      "humanCodingScheme": "DE.4",
+      "abbreviatedStatement": "Cloud Infrastructure",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": { "title": "Skill", "identifier": "79e739db-4e5d-4a95-90ce-b3ff98b03439", "uri": "urn:uuid:79e739db-4e5d-4a95-90ce-b3ff98b03439" },
+      "language": "en-US",
+      "conceptKeywords": ["AWS", "Terraform", "Athena", "cloud architecture", "cost optimization"],
+      "subject": ["Data Engineering"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" }
+    },
+    {
+      "identifier": "487afff8-fc5a-46e5-a735-065c431a5828",
+      "uri": "urn:uuid:487afff8-fc5a-46e5-a735-065c431a5828",
+      "fullStatement": "Ensure data accuracy and reliability through quality frameworks.",
+      "humanCodingScheme": "DE.5",
+      "abbreviatedStatement": "Data Quality",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": { "title": "Skill", "identifier": "79e739db-4e5d-4a95-90ce-b3ff98b03439", "uri": "urn:uuid:79e739db-4e5d-4a95-90ce-b3ff98b03439" },
+      "language": "en-US",
+      "conceptKeywords": ["data quality", "Great Expectations", "data governance", "SLAs", "alerting"],
+      "subject": ["Data Engineering"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" }
+    },
+    {
+      "identifier": "485a8792-9828-42be-8a80-2e1c3dd6fbb6",
+      "uri": "urn:uuid:485a8792-9828-42be-8a80-2e1c3dd6fbb6",
+      "fullStatement": "Translate business needs to data solutions through effective stakeholder communication.",
+      "humanCodingScheme": "DE.6",
+      "abbreviatedStatement": "Stakeholder Communication",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": { "title": "Skill", "identifier": "79e739db-4e5d-4a95-90ce-b3ff98b03439", "uri": "urn:uuid:79e739db-4e5d-4a95-90ce-b3ff98b03439" },
+      "language": "en-US",
+      "conceptKeywords": ["stakeholder management", "requirements gathering", "cross-functional collaboration", "executive communication"],
+      "subject": ["Data Engineering"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" }
+    }
+  ],
+  "CFAssociations": [
+    {
+      "identifier": "113e50b9-456e-4ada-bde3-94a7f4f7aeb3",
+      "uri": "urn:uuid:113e50b9-456e-4ada-bde3-94a7f4f7aeb3",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Data Modeling", "identifier": "7f13047e-370a-470a-8775-8f0e33265f89", "uri": "urn:uuid:7f13047e-370a-470a-8775-8f0e33265f89", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "e75a22d4-8481-4e56-b761-3951a652e032",
+      "uri": "urn:uuid:e75a22d4-8481-4e56-b761-3951a652e032",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "ETL/ELT", "identifier": "a5402b8f-a6ff-4ea1-98b6-74a17cdfd749", "uri": "urn:uuid:a5402b8f-a6ff-4ea1-98b6-74a17cdfd749", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "b1626034-fb1c-414d-aaf0-c51c0ed90b18",
+      "uri": "urn:uuid:b1626034-fb1c-414d-aaf0-c51c0ed90b18",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "SQL Proficiency", "identifier": "2b0e0cc8-c7ab-4661-88c6-b16b44d7d6f3", "uri": "urn:uuid:2b0e0cc8-c7ab-4661-88c6-b16b44d7d6f3", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "c168a741-7628-41b8-bd6f-ac3513fc0b4a",
+      "uri": "urn:uuid:c168a741-7628-41b8-bd6f-ac3513fc0b4a",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Cloud Infrastructure", "identifier": "64b66b15-c747-47f1-88aa-8c0d6f1e07b6", "uri": "urn:uuid:64b66b15-c747-47f1-88aa-8c0d6f1e07b6", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" },
+      "sequenceNumber": 4,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "5f9dbf89-2510-47ee-9f89-1dac9a8c3769",
+      "uri": "urn:uuid:5f9dbf89-2510-47ee-9f89-1dac9a8c3769",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Data Quality", "identifier": "487afff8-fc5a-46e5-a735-065c431a5828", "uri": "urn:uuid:487afff8-fc5a-46e5-a735-065c431a5828", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" },
+      "sequenceNumber": 5,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "6c32567a-5173-4f21-bdb7-e30559e0ef95",
+      "uri": "urn:uuid:6c32567a-5173-4f21-bdb7-e30559e0ef95",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Stakeholder Communication", "identifier": "485a8792-9828-42be-8a80-2e1c3dd6fbb6", "uri": "urn:uuid:485a8792-9828-42be-8a80-2e1c3dd6fbb6", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "Acme Corp Data Engineering Competency Matrix - Q1 2026", "identifier": "784097c6-97d4-432f-8969-90d15c004189", "uri": "urn:uuid:784097c6-97d4-432f-8969-90d15c004189" },
+      "sequenceNumber": 6,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    }
+  ],
+  "CFDefinitions": {
+    "CFSubjects": [
+      {
+        "identifier": "6ce0e494-618d-46fe-99fb-5458235ed523",
+        "uri": "urn:uuid:6ce0e494-618d-46fe-99fb-5458235ed523",
+        "title": "Data Engineering",
+        "description": "Data engineering skills and competencies",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFItemTypes": [
+      {
+        "identifier": "79e739db-4e5d-4a95-90ce-b3ff98b03439",
+        "uri": "urn:uuid:79e739db-4e5d-4a95-90ce-b3ff98b03439",
+        "title": "Skill",
+        "description": "A technical or professional skill with defined proficiency levels",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFConcepts": [],
+    "CFLicenses": [],
+    "CFAssociationGroupings": []
+  },
+  "CFRubrics": [
+    {
+      "identifier": "bb19f720-7a89-4a8c-b746-a9488dc3b11c",
+      "uri": "urn:uuid:bb19f720-7a89-4a8c-b746-a9488dc3b11c",
+      "title": "Data Engineering Proficiency Rubric",
+      "description": "Four-level proficiency rubric for Data Engineering competencies: Junior, Mid, Senior, Staff.",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFRubricCriteria": [
+        {
+          "identifier": "97801ad5-b8da-4164-8b6e-0a3e3d65c7ef",
+          "uri": "urn:uuid:97801ad5-b8da-4164-8b6e-0a3e3d65c7ef",
+          "category": "Data Modeling",
+          "description": "Ability to design normalized relational schemas",
+          "CFItemURI": { "title": "Data Modeling", "identifier": "7f13047e-370a-470a-8775-8f0e33265f89", "uri": "urn:uuid:7f13047e-370a-470a-8775-8f0e33265f89" },
+          "weight": 1.0,
+          "position": 1,
+          "rubricId": "bb19f720-7a89-4a8c-b746-a9488dc3b11c",
+          "lastChangeDateTime": "2026-03-11T20:16:00Z",
+          "CFRubricCriterionLevels": [
+            { "identifier": "60679455-c23e-4c87-bced-2cf591d63b87", "uri": "urn:uuid:60679455-c23e-4c87-bced-2cf591d63b87", "description": "Can create basic ER diagrams", "quality": "Junior", "score": 1.0, "position": 1, "rubricCriterionId": "97801ad5-b8da-4164-8b6e-0a3e3d65c7ef", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "0387470e-27d1-4361-a9a3-b99d8abe31e4", "uri": "urn:uuid:0387470e-27d1-4361-a9a3-b99d8abe31e4", "description": "Designs 3NF schemas for production systems", "quality": "Mid", "score": 2.0, "position": 2, "rubricCriterionId": "97801ad5-b8da-4164-8b6e-0a3e3d65c7ef", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "4dfa9090-b4b5-413f-b413-5fcb027d5dab", "uri": "urn:uuid:4dfa9090-b4b5-413f-b413-5fcb027d5dab", "description": "Architects enterprise data models across domains", "quality": "Senior", "score": 3.0, "position": 3, "rubricCriterionId": "97801ad5-b8da-4164-8b6e-0a3e3d65c7ef", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "fcf9116c-c2ad-4a32-b308-2f7a81b10360", "uri": "urn:uuid:fcf9116c-c2ad-4a32-b308-2f7a81b10360", "description": "Sets org-wide modeling standards and reviews all models", "quality": "Staff", "score": 4.0, "position": 4, "rubricCriterionId": "97801ad5-b8da-4164-8b6e-0a3e3d65c7ef", "lastChangeDateTime": "2026-03-11T20:16:00Z" }
+          ]
+        },
+        {
+          "identifier": "5f2300df-bb6b-4668-8a9a-f68a5efd1034",
+          "uri": "urn:uuid:5f2300df-bb6b-4668-8a9a-f68a5efd1034",
+          "category": "ETL/ELT",
+          "description": "Ability to build and maintain data pipelines",
+          "CFItemURI": { "title": "ETL/ELT", "identifier": "a5402b8f-a6ff-4ea1-98b6-74a17cdfd749", "uri": "urn:uuid:a5402b8f-a6ff-4ea1-98b6-74a17cdfd749" },
+          "weight": 1.0,
+          "position": 2,
+          "rubricId": "bb19f720-7a89-4a8c-b746-a9488dc3b11c",
+          "lastChangeDateTime": "2026-03-11T20:16:00Z",
+          "CFRubricCriterionLevels": [
+            { "identifier": "75bf0708-6360-4b4c-8e92-a554437b6008", "uri": "urn:uuid:75bf0708-6360-4b4c-8e92-a554437b6008", "description": "Writes simple Python/SQL transforms", "quality": "Junior", "score": 1.0, "position": 1, "rubricCriterionId": "5f2300df-bb6b-4668-8a9a-f68a5efd1034", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "9e527123-40ed-4333-8920-5f19908b01a0", "uri": "urn:uuid:9e527123-40ed-4333-8920-5f19908b01a0", "description": "Builds production Airflow DAGs with error handling", "quality": "Mid", "score": 2.0, "position": 2, "rubricCriterionId": "5f2300df-bb6b-4668-8a9a-f68a5efd1034", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "1b6e2577-ef32-40db-a205-855f9c4e673f", "uri": "urn:uuid:1b6e2577-ef32-40db-a205-855f9c4e673f", "description": "Designs fault-tolerant streaming architectures (Kafka/Flink)", "quality": "Senior", "score": 3.0, "position": 3, "rubricCriterionId": "5f2300df-bb6b-4668-8a9a-f68a5efd1034", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "935e8352-880d-48e2-ba0b-ee723500bc7c", "uri": "urn:uuid:935e8352-880d-48e2-ba0b-ee723500bc7c", "description": "Defines pipeline architecture patterns and SLAs for the org", "quality": "Staff", "score": 4.0, "position": 4, "rubricCriterionId": "5f2300df-bb6b-4668-8a9a-f68a5efd1034", "lastChangeDateTime": "2026-03-11T20:16:00Z" }
+          ]
+        },
+        {
+          "identifier": "4b65ae8f-1f73-4625-93d7-0cdbf5b4887e",
+          "uri": "urn:uuid:4b65ae8f-1f73-4625-93d7-0cdbf5b4887e",
+          "category": "SQL Proficiency",
+          "description": "Ability to write efficient analytical queries",
+          "CFItemURI": { "title": "SQL Proficiency", "identifier": "2b0e0cc8-c7ab-4661-88c6-b16b44d7d6f3", "uri": "urn:uuid:2b0e0cc8-c7ab-4661-88c6-b16b44d7d6f3" },
+          "weight": 1.0,
+          "position": 3,
+          "rubricId": "bb19f720-7a89-4a8c-b746-a9488dc3b11c",
+          "lastChangeDateTime": "2026-03-11T20:16:00Z",
+          "CFRubricCriterionLevels": [
+            { "identifier": "1cad9e8e-dc04-4edd-a6a4-f502ec20a8f3", "uri": "urn:uuid:1cad9e8e-dc04-4edd-a6a4-f502ec20a8f3", "description": "Basic SELECT/JOIN/GROUP BY", "quality": "Junior", "score": 1.0, "position": 1, "rubricCriterionId": "4b65ae8f-1f73-4625-93d7-0cdbf5b4887e", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "2ac8de2c-b177-44e7-b051-240e35f5ce52", "uri": "urn:uuid:2ac8de2c-b177-44e7-b051-240e35f5ce52", "description": "Window functions and CTEs and query optimization", "quality": "Mid", "score": 2.0, "position": 2, "rubricCriterionId": "4b65ae8f-1f73-4625-93d7-0cdbf5b4887e", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "262ec28d-81a8-4d32-8d8d-1e8f94a4ecdc", "uri": "urn:uuid:262ec28d-81a8-4d32-8d8d-1e8f94a4ecdc", "description": "Advanced performance tuning and query plan analysis", "quality": "Senior", "score": 3.0, "position": 3, "rubricCriterionId": "4b65ae8f-1f73-4625-93d7-0cdbf5b4887e", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "b33106bc-cce7-44df-9f27-696643b9b0c1", "uri": "urn:uuid:b33106bc-cce7-44df-9f27-696643b9b0c1", "description": "Mentors team and establishes SQL style guides", "quality": "Staff", "score": 4.0, "position": 4, "rubricCriterionId": "4b65ae8f-1f73-4625-93d7-0cdbf5b4887e", "lastChangeDateTime": "2026-03-11T20:16:00Z" }
+          ]
+        },
+        {
+          "identifier": "d6f6df0e-1f76-4f5c-a253-93eacd1730ff",
+          "uri": "urn:uuid:d6f6df0e-1f76-4f5c-a253-93eacd1730ff",
+          "category": "Cloud Infrastructure",
+          "description": "Ability to manage cloud data services",
+          "CFItemURI": { "title": "Cloud Infrastructure", "identifier": "64b66b15-c747-47f1-88aa-8c0d6f1e07b6", "uri": "urn:uuid:64b66b15-c747-47f1-88aa-8c0d6f1e07b6" },
+          "weight": 1.0,
+          "position": 4,
+          "rubricId": "bb19f720-7a89-4a8c-b746-a9488dc3b11c",
+          "lastChangeDateTime": "2026-03-11T20:16:00Z",
+          "CFRubricCriterionLevels": [
+            { "identifier": "ff74ca0a-678a-4620-b4c3-23e38cd52705", "uri": "urn:uuid:ff74ca0a-678a-4620-b4c3-23e38cd52705", "description": "Navigates AWS console and runs basic queries in Athena", "quality": "Junior", "score": 1.0, "position": 1, "rubricCriterionId": "d6f6df0e-1f76-4f5c-a253-93eacd1730ff", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "d148931e-821c-47ec-97a6-f03bdfb5381b", "uri": "urn:uuid:d148931e-821c-47ec-97a6-f03bdfb5381b", "description": "Provisions and configures data services via Terraform", "quality": "Mid", "score": 2.0, "position": 2, "rubricCriterionId": "d6f6df0e-1f76-4f5c-a253-93eacd1730ff", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "bf60dfec-f700-401d-80ae-b880a95d70b0", "uri": "urn:uuid:bf60dfec-f700-401d-80ae-b880a95d70b0", "description": "Designs multi-region HA architectures", "quality": "Senior", "score": 3.0, "position": 3, "rubricCriterionId": "d6f6df0e-1f76-4f5c-a253-93eacd1730ff", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "9adf0596-5ae0-447d-99a4-a1263c0df18d", "uri": "urn:uuid:9adf0596-5ae0-447d-99a4-a1263c0df18d", "description": "Drives cloud strategy and cost optimization org-wide", "quality": "Staff", "score": 4.0, "position": 4, "rubricCriterionId": "d6f6df0e-1f76-4f5c-a253-93eacd1730ff", "lastChangeDateTime": "2026-03-11T20:16:00Z" }
+          ]
+        },
+        {
+          "identifier": "3b50530c-eb1b-43a3-9ac3-25f4051e2583",
+          "uri": "urn:uuid:3b50530c-eb1b-43a3-9ac3-25f4051e2583",
+          "category": "Data Quality",
+          "description": "Ability to ensure data accuracy and reliability",
+          "CFItemURI": { "title": "Data Quality", "identifier": "487afff8-fc5a-46e5-a735-065c431a5828", "uri": "urn:uuid:487afff8-fc5a-46e5-a735-065c431a5828" },
+          "weight": 1.0,
+          "position": 5,
+          "rubricId": "bb19f720-7a89-4a8c-b746-a9488dc3b11c",
+          "lastChangeDateTime": "2026-03-11T20:16:00Z",
+          "CFRubricCriterionLevels": [
+            { "identifier": "d21159b2-0d8f-402c-ae68-27ac4d18db7b", "uri": "urn:uuid:d21159b2-0d8f-402c-ae68-27ac4d18db7b", "description": "Runs pre-built data quality checks", "quality": "Junior", "score": 1.0, "position": 1, "rubricCriterionId": "3b50530c-eb1b-43a3-9ac3-25f4051e2583", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "9f265d52-b380-4169-9ab7-84cb009b86c7", "uri": "urn:uuid:9f265d52-b380-4169-9ab7-84cb009b86c7", "description": "Implements custom Great Expectations suites", "quality": "Mid", "score": 2.0, "position": 2, "rubricCriterionId": "3b50530c-eb1b-43a3-9ac3-25f4051e2583", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "4ae2262c-2efa-47c0-a6be-9c36da342b1d", "uri": "urn:uuid:4ae2262c-2efa-47c0-a6be-9c36da342b1d", "description": "Designs data quality frameworks with automated alerting", "quality": "Senior", "score": 3.0, "position": 3, "rubricCriterionId": "3b50530c-eb1b-43a3-9ac3-25f4051e2583", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "6855374d-042e-49c5-87fa-262d0ad9eae2", "uri": "urn:uuid:6855374d-042e-49c5-87fa-262d0ad9eae2", "description": "Establishes org-wide data governance and quality SLAs", "quality": "Staff", "score": 4.0, "position": 4, "rubricCriterionId": "3b50530c-eb1b-43a3-9ac3-25f4051e2583", "lastChangeDateTime": "2026-03-11T20:16:00Z" }
+          ]
+        },
+        {
+          "identifier": "04640c54-ffc3-4cf1-b591-9d2e9beea63d",
+          "uri": "urn:uuid:04640c54-ffc3-4cf1-b591-9d2e9beea63d",
+          "category": "Stakeholder Communication",
+          "description": "Ability to translate business needs to data solutions",
+          "CFItemURI": { "title": "Stakeholder Communication", "identifier": "485a8792-9828-42be-8a80-2e1c3dd6fbb6", "uri": "urn:uuid:485a8792-9828-42be-8a80-2e1c3dd6fbb6" },
+          "weight": 1.0,
+          "position": 6,
+          "rubricId": "bb19f720-7a89-4a8c-b746-a9488dc3b11c",
+          "lastChangeDateTime": "2026-03-11T20:16:00Z",
+          "CFRubricCriterionLevels": [
+            { "identifier": "c01aac66-ae87-40f0-b04b-2d138d1ecf0d", "uri": "urn:uuid:c01aac66-ae87-40f0-b04b-2d138d1ecf0d", "description": "Answers basic data questions from analysts", "quality": "Junior", "score": 1.0, "position": 1, "rubricCriterionId": "04640c54-ffc3-4cf1-b591-9d2e9beea63d", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "0498e572-5849-4529-a14c-6003278e49f0", "uri": "urn:uuid:0498e572-5849-4529-a14c-6003278e49f0", "description": "Gathers requirements and proposes technical solutions", "quality": "Mid", "score": 2.0, "position": 2, "rubricCriterionId": "04640c54-ffc3-4cf1-b591-9d2e9beea63d", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "aad22016-7dd8-4607-8e5f-62597814c168", "uri": "urn:uuid:aad22016-7dd8-4607-8e5f-62597814c168", "description": "Leads cross-functional data strategy discussions", "quality": "Senior", "score": 3.0, "position": 3, "rubricCriterionId": "04640c54-ffc3-4cf1-b591-9d2e9beea63d", "lastChangeDateTime": "2026-03-11T20:16:00Z" },
+            { "identifier": "a51e3597-bafb-43db-9faf-ca049659ab1b", "uri": "urn:uuid:a51e3597-bafb-43db-9faf-ca049659ab1b", "description": "Represents data eng in executive planning and roadmap decisions", "quality": "Staff", "score": 4.0, "position": 4, "rubricCriterionId": "04640c54-ffc3-4cf1-b591-9d2e9beea63d", "lastChangeDateTime": "2026-03-11T20:16:00Z" }
+          ]
+        }
+      ]
+    }
+  ]
+}

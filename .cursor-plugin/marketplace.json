@@ -1,0 +1,23 @@
+{
+  "name": "opensalt",
+  "owner": {
+    "name": "opensalt"
+  },
+  "metadata": {
+    "description": "OpenSALT agent skills for 1EdTech CASE 1.1 competency frameworks"
+  },
+  "plugins": [
+    {
+      "name": "opensalt-agent-skills",
+      "source": ".",
+      "version": "1.0.0",
+      "description": "Two skills for 1EdTech CASE 1.1 and OpenSALT: case-json converts any source (text, CSV, JSON, XML, PDFs, spreadsheets, job descriptions, curricula) into a valid CASE 1.1 CFPackage; opensalt-skill authors, validates, publishes, and reads back competency frameworks against a live OpenSALT registry (item kinds, bundled validator, /api/v1 upload, CASE catalog and /uri/ markdown).",
+      "author": {
+        "name": "opensalt"
+      },
+      "license": "MIT",
+      "keywords": ["case", "opensalt", "competency-framework", "standards", "credentials", "education"],
+      "category": "developer-tools"
+    }
+  ]
+}

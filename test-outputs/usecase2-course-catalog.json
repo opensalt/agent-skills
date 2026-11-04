@@ -1,0 +1,384 @@
+{
+  "CFDocument": {
+    "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+    "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca",
+    "creator": "Stanford University",
+    "title": "Stanford Computer Science Course Catalog (Excerpt)",
+    "lastChangeDateTime": "2026-03-11T20:16:00Z",
+    "caseVersion": "1.1",
+    "description": "Selected courses from Stanford University's Computer Science department catalog, capturing learning objectives and prerequisite chains.",
+    "publisher": "Stanford University",
+    "subject": ["Computer Science"],
+    "subjectURI": [
+      {
+        "title": "Computer Science",
+        "identifier": "62d6426a-e381-4826-bbb5-b2807d5efb10",
+        "uri": "urn:uuid:62d6426a-e381-4826-bbb5-b2807d5efb10"
+      }
+    ],
+    "language": "en-US",
+    "version": "2025-2026",
+    "adoptionStatus": "Adopted",
+    "statusStartDate": "2025-09-01",
+    "frameworkType": "Course Catalog",
+    "CFPackageURI": {
+      "title": "Stanford Computer Science Course Catalog (Excerpt)",
+      "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+      "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+    }
+  },
+  "CFItems": [
+    {
+      "identifier": "4662dbf8-b826-4100-acdd-845537481050",
+      "uri": "urn:uuid:4662dbf8-b826-4100-acdd-845537481050",
+      "fullStatement": "Introduction to the engineering of computer applications emphasizing modern software engineering principles: object-oriented design, decomposition, encapsulation, abstraction, and testing. Uses the Java programming language.",
+      "humanCodingScheme": "CS 106A",
+      "abbreviatedStatement": "Programming Methodology",
+      "CFItemType": "Course",
+      "CFItemTypeURI": {
+        "title": "Course",
+        "identifier": "9978b1a8-7d9b-4519-a8a7-b948ca9a58f7",
+        "uri": "urn:uuid:9978b1a8-7d9b-4519-a8a7-b948ca9a58f7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["object-oriented design", "decomposition", "encapsulation", "abstraction", "testing", "Java"],
+      "subject": ["Computer Science"],
+      "notes": "Prerequisite: none. 5 units. Letter grade.",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      }
+    },
+    {
+      "identifier": "90eff344-6ea7-4cb4-9598-9d4ac911c464",
+      "uri": "urn:uuid:90eff344-6ea7-4cb4-9598-9d4ac911c464",
+      "fullStatement": "Abstraction and its relation to programming. Software engineering principles of data abstraction and modularity. Object-oriented programming, fundamental data structures (stacks, queues, sets) and data-directed design. Recursion and recursive data structures (linked lists, trees, graphs). Introduction to time and space complexity analysis.",
+      "humanCodingScheme": "CS 106B",
+      "abbreviatedStatement": "Programming Abstractions",
+      "CFItemType": "Course",
+      "CFItemTypeURI": {
+        "title": "Course",
+        "identifier": "9978b1a8-7d9b-4519-a8a7-b948ca9a58f7",
+        "uri": "urn:uuid:9978b1a8-7d9b-4519-a8a7-b948ca9a58f7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["data structures", "abstraction", "recursion", "linked lists", "trees", "graphs", "complexity analysis"],
+      "subject": ["Computer Science"],
+      "notes": "Prerequisite: CS 106A. 5 units.",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      }
+    },
+    {
+      "identifier": "e1c26d07-1b98-416d-896e-2746bdbd9fa8",
+      "uri": "urn:uuid:e1c26d07-1b98-416d-896e-2746bdbd9fa8",
+      "fullStatement": "Introduction to the fundamental concepts of computer systems. Explores how computer systems execute programs and manipulate data, working from the C programming language down to the microprocessor. Topics covered include: the C programming language, data representation, machine-level code, computer arithmetic, elements of code compilation, memory organization and management, and performance evaluation and improvement.",
+      "humanCodingScheme": "CS 107",
+      "abbreviatedStatement": "Computer Organization and Systems",
+      "CFItemType": "Course",
+      "CFItemTypeURI": {
+        "title": "Course",
+        "identifier": "9978b1a8-7d9b-4519-a8a7-b948ca9a58f7",
+        "uri": "urn:uuid:9978b1a8-7d9b-4519-a8a7-b948ca9a58f7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["C programming", "data representation", "machine code", "memory management", "computer arithmetic", "compilation"],
+      "subject": ["Computer Science"],
+      "notes": "Prerequisite: CS 106B. 5 units.",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      }
+    },
+    {
+      "identifier": "1db362a4-e51c-4f57-bfcc-6203fff0f8fb",
+      "uri": "urn:uuid:1db362a4-e51c-4f57-bfcc-6203fff0f8fb",
+      "fullStatement": "Topics include: counting and combinatorics, random variables, conditional probability, independence, distributions, expectation, point estimation, and limit theorems. Applications of probability in computer science including machine learning and the use of probability in the analysis of algorithms.",
+      "humanCodingScheme": "CS 109",
+      "abbreviatedStatement": "Introduction to Probability for Computer Scientists",
+      "CFItemType": "Course",
+      "CFItemTypeURI": {
+        "title": "Course",
+        "identifier": "9978b1a8-7d9b-4519-a8a7-b948ca9a58f7",
+        "uri": "urn:uuid:9978b1a8-7d9b-4519-a8a7-b948ca9a58f7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["probability", "combinatorics", "random variables", "distributions", "machine learning", "algorithm analysis"],
+      "subject": ["Computer Science"],
+      "notes": "Prerequisite: CS 106B, MATH 51. 5 units.",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      }
+    },
+    {
+      "identifier": "dad67869-d9f9-4b86-841c-60f053108ee8",
+      "uri": "urn:uuid:dad67869-d9f9-4b86-841c-60f053108ee8",
+      "fullStatement": "Worst and average case analysis. Recurrences and asymptotics. Efficient algorithms for sorting, searching, and selection. Data structures: binary search trees, heaps, hash tables. Algorithm design techniques: divide-and-conquer, dynamic programming, greedy algorithms, amortized analysis, randomization. Algorithms for fundamental graph problems: minimum-cost spanning tree, connected components, topological sort, and shortest paths.",
+      "humanCodingScheme": "CS 161",
+      "abbreviatedStatement": "Design and Analysis of Algorithms",
+      "CFItemType": "Course",
+      "CFItemTypeURI": {
+        "title": "Course",
+        "identifier": "9978b1a8-7d9b-4519-a8a7-b948ca9a58f7",
+        "uri": "urn:uuid:9978b1a8-7d9b-4519-a8a7-b948ca9a58f7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["algorithms", "sorting", "searching", "dynamic programming", "greedy algorithms", "graph algorithms", "data structures"],
+      "subject": ["Computer Science"],
+      "notes": "Prerequisite: CS 103, CS 109. 3-5 units.",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      }
+    }
+  ],
+  "CFAssociations": [
+    {
+      "identifier": "b1a93c21-65c1-4747-b534-8e36356e3e43",
+      "uri": "urn:uuid:b1a93c21-65c1-4747-b534-8e36356e3e43",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "CS 106A - Programming Methodology",
+        "identifier": "4662dbf8-b826-4100-acdd-845537481050",
+        "uri": "urn:uuid:4662dbf8-b826-4100-acdd-845537481050",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "d877ceca-fb1b-4d74-bdde-2d5ec2a76d61",
+      "uri": "urn:uuid:d877ceca-fb1b-4d74-bdde-2d5ec2a76d61",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "CS 106B - Programming Abstractions",
+        "identifier": "90eff344-6ea7-4cb4-9598-9d4ac911c464",
+        "uri": "urn:uuid:90eff344-6ea7-4cb4-9598-9d4ac911c464",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "a4be9acc-e53a-43cf-9dce-4178d486d833",
+      "uri": "urn:uuid:a4be9acc-e53a-43cf-9dce-4178d486d833",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "CS 107 - Computer Organization and Systems",
+        "identifier": "e1c26d07-1b98-416d-896e-2746bdbd9fa8",
+        "uri": "urn:uuid:e1c26d07-1b98-416d-896e-2746bdbd9fa8",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "c000e5ae-6af7-4765-ad14-b4b5b34a6ec2",
+      "uri": "urn:uuid:c000e5ae-6af7-4765-ad14-b4b5b34a6ec2",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "CS 109 - Introduction to Probability",
+        "identifier": "1db362a4-e51c-4f57-bfcc-6203fff0f8fb",
+        "uri": "urn:uuid:1db362a4-e51c-4f57-bfcc-6203fff0f8fb",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "sequenceNumber": 4,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "66a3f39b-f8cc-4786-9f9d-96ef5e52c170",
+      "uri": "urn:uuid:66a3f39b-f8cc-4786-9f9d-96ef5e52c170",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "CS 161 - Design and Analysis of Algorithms",
+        "identifier": "dad67869-d9f9-4b86-841c-60f053108ee8",
+        "uri": "urn:uuid:dad67869-d9f9-4b86-841c-60f053108ee8",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "sequenceNumber": 5,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "551f073c-861b-4253-8bce-9261e536550a",
+      "uri": "urn:uuid:551f073c-861b-4253-8bce-9261e536550a",
+      "associationType": "precedes",
+      "originNodeURI": {
+        "title": "CS 106A - Programming Methodology",
+        "identifier": "4662dbf8-b826-4100-acdd-845537481050",
+        "uri": "urn:uuid:4662dbf8-b826-4100-acdd-845537481050",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "CS 106B - Programming Abstractions",
+        "identifier": "90eff344-6ea7-4cb4-9598-9d4ac911c464",
+        "uri": "urn:uuid:90eff344-6ea7-4cb4-9598-9d4ac911c464",
+        "targetType": "CFItem"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "7921beb1-71db-48f8-b94b-6ffb8eb9ba0e",
+      "uri": "urn:uuid:7921beb1-71db-48f8-b94b-6ffb8eb9ba0e",
+      "associationType": "precedes",
+      "originNodeURI": {
+        "title": "CS 106B - Programming Abstractions",
+        "identifier": "90eff344-6ea7-4cb4-9598-9d4ac911c464",
+        "uri": "urn:uuid:90eff344-6ea7-4cb4-9598-9d4ac911c464",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "CS 107 - Computer Organization and Systems",
+        "identifier": "e1c26d07-1b98-416d-896e-2746bdbd9fa8",
+        "uri": "urn:uuid:e1c26d07-1b98-416d-896e-2746bdbd9fa8",
+        "targetType": "CFItem"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "a4787426-fba5-4b91-bc69-c2f358ff7dfa",
+      "uri": "urn:uuid:a4787426-fba5-4b91-bc69-c2f358ff7dfa",
+      "associationType": "precedes",
+      "originNodeURI": {
+        "title": "CS 106B - Programming Abstractions",
+        "identifier": "90eff344-6ea7-4cb4-9598-9d4ac911c464",
+        "uri": "urn:uuid:90eff344-6ea7-4cb4-9598-9d4ac911c464",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "CS 109 - Introduction to Probability",
+        "identifier": "1db362a4-e51c-4f57-bfcc-6203fff0f8fb",
+        "uri": "urn:uuid:1db362a4-e51c-4f57-bfcc-6203fff0f8fb",
+        "targetType": "CFItem"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "1ad0724c-66f5-4d00-915c-7faf2c0f2937",
+      "uri": "urn:uuid:1ad0724c-66f5-4d00-915c-7faf2c0f2937",
+      "associationType": "precedes",
+      "originNodeURI": {
+        "title": "CS 109 - Introduction to Probability",
+        "identifier": "1db362a4-e51c-4f57-bfcc-6203fff0f8fb",
+        "uri": "urn:uuid:1db362a4-e51c-4f57-bfcc-6203fff0f8fb",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "CS 161 - Design and Analysis of Algorithms",
+        "identifier": "dad67869-d9f9-4b86-841c-60f053108ee8",
+        "uri": "urn:uuid:dad67869-d9f9-4b86-841c-60f053108ee8",
+        "targetType": "CFItem"
+      },
+      "CFDocumentURI": {
+        "title": "Stanford Computer Science Course Catalog (Excerpt)",
+        "identifier": "5d4b130f-3980-40bc-b749-81dc026de4ca",
+        "uri": "urn:uuid:5d4b130f-3980-40bc-b749-81dc026de4ca"
+      },
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    }
+  ],
+  "CFDefinitions": {
+    "CFSubjects": [
+      {
+        "identifier": "62d6426a-e381-4826-bbb5-b2807d5efb10",
+        "uri": "urn:uuid:62d6426a-e381-4826-bbb5-b2807d5efb10",
+        "title": "Computer Science",
+        "description": "Computer Science department courses",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFItemTypes": [
+      {
+        "identifier": "9978b1a8-7d9b-4519-a8a7-b948ca9a58f7",
+        "uri": "urn:uuid:9978b1a8-7d9b-4519-a8a7-b948ca9a58f7",
+        "title": "Course",
+        "description": "An academic course with defined learning objectives and prerequisites",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFConcepts": [],
+    "CFLicenses": [],
+    "CFAssociationGroupings": []
+  }
+}

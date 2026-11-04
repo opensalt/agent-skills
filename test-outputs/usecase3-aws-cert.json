@@ -1,0 +1,772 @@
+{
+  "CFDocument": {
+    "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+    "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548",
+    "creator": "Amazon Web Services",
+    "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+    "lastChangeDateTime": "2026-03-11T20:16:00Z",
+    "caseVersion": "1.1",
+    "description": "Competency domains and objectives for the AWS Certified Cloud Practitioner certification exam (CLF-C02).",
+    "publisher": "Amazon Web Services",
+    "subject": ["Cloud Computing"],
+    "subjectURI": [
+      {
+        "title": "Cloud Computing",
+        "identifier": "bb230d0d-4a23-41e8-82c5-607a9113f013",
+        "uri": "urn:uuid:bb230d0d-4a23-41e8-82c5-607a9113f013"
+      }
+    ],
+    "language": "en-US",
+    "version": "CLF-C02",
+    "adoptionStatus": "Adopted",
+    "statusStartDate": "2023-09-19",
+    "frameworkType": "Industry Certification",
+    "CFPackageURI": {
+      "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+      "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+      "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+    }
+  },
+  "CFItems": [
+    {
+      "identifier": "18f297af-a400-4b09-b00a-d41f51a53b2c",
+      "uri": "urn:uuid:18f297af-a400-4b09-b00a-d41f51a53b2c",
+      "fullStatement": "Cloud Concepts: Understand the benefits, design principles, migration strategies, and economics of the AWS Cloud.",
+      "humanCodingScheme": "Domain 1",
+      "abbreviatedStatement": "Cloud Concepts",
+      "CFItemType": "Domain",
+      "CFItemTypeURI": {
+        "title": "Domain",
+        "identifier": "1d3795d0-a581-41f2-913a-b2475dafa6e3",
+        "uri": "urn:uuid:1d3795d0-a581-41f2-913a-b2475dafa6e3"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["cloud concepts", "cloud economics", "migration"],
+      "subject": ["Cloud Computing"],
+      "notes": "24% of exam score",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "76bce768-ac03-4e8b-acce-7f87a979525d",
+      "uri": "urn:uuid:76bce768-ac03-4e8b-acce-7f87a979525d",
+      "fullStatement": "Define the benefits of the AWS Cloud including cost savings, high availability, elasticity, agility, and economies of scale.",
+      "humanCodingScheme": "1.1",
+      "abbreviatedStatement": "Benefits of AWS Cloud",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["cost savings", "high availability", "elasticity", "agility", "economies of scale"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "afe91ca3-b1ec-4bed-8949-8852a9cd2de0",
+      "uri": "urn:uuid:afe91ca3-b1ec-4bed-8949-8852a9cd2de0",
+      "fullStatement": "Identify design principles of the AWS Cloud including design for failure, decouple components, implement elasticity, and think parallel.",
+      "humanCodingScheme": "1.2",
+      "abbreviatedStatement": "AWS Cloud Design Principles",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["design for failure", "decoupling", "elasticity", "parallel processing"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "b2ba27dc-38e8-4f5f-93bc-ec443f75f6d4",
+      "uri": "urn:uuid:b2ba27dc-38e8-4f5f-93bc-ec443f75f6d4",
+      "fullStatement": "Understand the benefits of and strategies for migration to the AWS Cloud.",
+      "humanCodingScheme": "1.3",
+      "abbreviatedStatement": "Cloud Migration Strategies",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["migration", "cloud adoption"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "a3037dfc-37eb-449d-a5af-231ba2f5b4a5",
+      "uri": "urn:uuid:a3037dfc-37eb-449d-a5af-231ba2f5b4a5",
+      "fullStatement": "Understand concepts of cloud economics including TCO, licensing strategies, and right-sizing.",
+      "humanCodingScheme": "1.4",
+      "abbreviatedStatement": "Cloud Economics",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["TCO", "licensing", "right-sizing", "cloud economics"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "6585a5e0-96ff-43ba-b7e5-6e759822123a",
+      "uri": "urn:uuid:6585a5e0-96ff-43ba-b7e5-6e759822123a",
+      "fullStatement": "Security and Compliance: Understand the AWS Shared Responsibility Model, security concepts, access management, and security support resources.",
+      "humanCodingScheme": "Domain 2",
+      "abbreviatedStatement": "Security and Compliance",
+      "CFItemType": "Domain",
+      "CFItemTypeURI": {
+        "title": "Domain",
+        "identifier": "1d3795d0-a581-41f2-913a-b2475dafa6e3",
+        "uri": "urn:uuid:1d3795d0-a581-41f2-913a-b2475dafa6e3"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["security", "compliance", "shared responsibility", "IAM"],
+      "subject": ["Cloud Computing"],
+      "notes": "30% of exam score",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "2ec80ed5-0b32-41b7-b9d9-8305c4c7e036",
+      "uri": "urn:uuid:2ec80ed5-0b32-41b7-b9d9-8305c4c7e036",
+      "fullStatement": "Understand the AWS Shared Responsibility Model.",
+      "humanCodingScheme": "2.1",
+      "abbreviatedStatement": "Shared Responsibility Model",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["shared responsibility", "security model"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "c86ccaa0-912c-45e5-bfe7-94549ff6f42a",
+      "uri": "urn:uuid:c86ccaa0-912c-45e5-bfe7-94549ff6f42a",
+      "fullStatement": "Understand AWS Cloud security, governance, and compliance concepts including benefits of compliance, encryption, audit, and least privilege.",
+      "humanCodingScheme": "2.2",
+      "abbreviatedStatement": "Cloud Security and Governance",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["compliance", "encryption", "audit", "least privilege", "governance"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "d3f7e247-ab3d-41a0-ab07-83d390057a5a",
+      "uri": "urn:uuid:d3f7e247-ab3d-41a0-ab07-83d390057a5a",
+      "fullStatement": "Identify AWS access management capabilities including IAM, root account, MFA, and access keys.",
+      "humanCodingScheme": "2.3",
+      "abbreviatedStatement": "Access Management",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["IAM", "MFA", "access keys", "root account"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "e599659b-870d-4268-9ee3-cb0c0b51cde4",
+      "uri": "urn:uuid:e599659b-870d-4268-9ee3-cb0c0b51cde4",
+      "fullStatement": "Identify components and resources for security support including AWS Trusted Advisor, security groups, NACLs, and AWS CloudTrail.",
+      "humanCodingScheme": "2.4",
+      "abbreviatedStatement": "Security Support Resources",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["Trusted Advisor", "security groups", "NACLs", "CloudTrail"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d",
+      "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d",
+      "fullStatement": "Cloud Technology and Services: Define deployment methods, global infrastructure, and identify compute, database, networking, storage, and AI/ML services.",
+      "humanCodingScheme": "Domain 3",
+      "abbreviatedStatement": "Cloud Technology and Services",
+      "CFItemType": "Domain",
+      "CFItemTypeURI": {
+        "title": "Domain",
+        "identifier": "1d3795d0-a581-41f2-913a-b2475dafa6e3",
+        "uri": "urn:uuid:1d3795d0-a581-41f2-913a-b2475dafa6e3"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["AWS services", "compute", "storage", "networking", "database"],
+      "subject": ["Cloud Computing"],
+      "notes": "34% of exam score",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "6b0143a8-2728-47b7-8f6c-2baab633d914",
+      "uri": "urn:uuid:6b0143a8-2728-47b7-8f6c-2baab633d914",
+      "fullStatement": "Define methods of deploying and operating in the AWS Cloud including APIs, SDKs, CLI, Console, and Infrastructure as Code.",
+      "humanCodingScheme": "3.1",
+      "abbreviatedStatement": "Deployment Methods",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["APIs", "SDKs", "CLI", "Console", "IaC"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "6718baa1-810b-46b6-af12-56824bef2f9c",
+      "uri": "urn:uuid:6718baa1-810b-46b6-af12-56824bef2f9c",
+      "fullStatement": "Define the AWS global infrastructure including Regions, Availability Zones, Edge Locations, and Local Zones.",
+      "humanCodingScheme": "3.2",
+      "abbreviatedStatement": "Global Infrastructure",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["Regions", "Availability Zones", "Edge Locations", "Local Zones"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "ee743d09-8991-4afc-aab4-6c5d2ffdbbd3",
+      "uri": "urn:uuid:ee743d09-8991-4afc-aab4-6c5d2ffdbbd3",
+      "fullStatement": "Identify AWS compute services including EC2, Lambda, ECS, Fargate, and Lightsail.",
+      "humanCodingScheme": "3.3",
+      "abbreviatedStatement": "Compute Services",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["EC2", "Lambda", "ECS", "Fargate", "Lightsail"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "6d3ff79e-2365-435e-a43f-398b6c5eb898",
+      "uri": "urn:uuid:6d3ff79e-2365-435e-a43f-398b6c5eb898",
+      "fullStatement": "Identify AWS database services including RDS, DynamoDB, Aurora, Redshift, and ElastiCache.",
+      "humanCodingScheme": "3.4",
+      "abbreviatedStatement": "Database Services",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["RDS", "DynamoDB", "Aurora", "Redshift", "ElastiCache"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "aa74947f-0a45-444a-9265-9a722fddcae7",
+      "uri": "urn:uuid:aa74947f-0a45-444a-9265-9a722fddcae7",
+      "fullStatement": "Identify AWS networking services including VPC, Route 53, CloudFront, Direct Connect, and VPN.",
+      "humanCodingScheme": "3.5",
+      "abbreviatedStatement": "Networking Services",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["VPC", "Route 53", "CloudFront", "Direct Connect", "VPN"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "487cda9e-c0ae-4b69-9c04-a0ccc0505d70",
+      "uri": "urn:uuid:487cda9e-c0ae-4b69-9c04-a0ccc0505d70",
+      "fullStatement": "Identify AWS storage services including S3, EBS, EFS, and S3 Glacier.",
+      "humanCodingScheme": "3.6",
+      "abbreviatedStatement": "Storage Services",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["S3", "EBS", "EFS", "Glacier"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "46dc37bd-1179-4f21-a51d-a1eb3a4e9d37",
+      "uri": "urn:uuid:46dc37bd-1179-4f21-a51d-a1eb3a4e9d37",
+      "fullStatement": "Identify AWS AI/ML services and analytics services.",
+      "humanCodingScheme": "3.7",
+      "abbreviatedStatement": "AI/ML and Analytics Services",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["AI", "ML", "analytics", "SageMaker"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "2da32062-d9e5-48cb-b696-69695cbb03e0",
+      "uri": "urn:uuid:2da32062-d9e5-48cb-b696-69695cbb03e0",
+      "fullStatement": "Billing, Pricing, and Support: Compare pricing models, understand billing and cost management resources, and identify technical support options.",
+      "humanCodingScheme": "Domain 4",
+      "abbreviatedStatement": "Billing, Pricing, and Support",
+      "CFItemType": "Domain",
+      "CFItemTypeURI": {
+        "title": "Domain",
+        "identifier": "1d3795d0-a581-41f2-913a-b2475dafa6e3",
+        "uri": "urn:uuid:1d3795d0-a581-41f2-913a-b2475dafa6e3"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["billing", "pricing", "support plans", "cost management"],
+      "subject": ["Cloud Computing"],
+      "notes": "12% of exam score",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "8771ade7-e0df-4180-8f43-964b88ae4b15",
+      "uri": "urn:uuid:8771ade7-e0df-4180-8f43-964b88ae4b15",
+      "fullStatement": "Compare AWS pricing models including On-Demand, Reserved, Spot, and Savings Plans.",
+      "humanCodingScheme": "4.1",
+      "abbreviatedStatement": "Pricing Models",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["On-Demand", "Reserved", "Spot", "Savings Plans"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "1d3e98c3-0d7a-4127-8609-054e784f0d0e",
+      "uri": "urn:uuid:1d3e98c3-0d7a-4127-8609-054e784f0d0e",
+      "fullStatement": "Understand resources for billing, budget, and cost management.",
+      "humanCodingScheme": "4.2",
+      "abbreviatedStatement": "Billing and Cost Management",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["billing", "budget", "cost management", "Cost Explorer"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    },
+    {
+      "identifier": "8c294d15-79c5-47e1-a3ff-5733052082d2",
+      "uri": "urn:uuid:8c294d15-79c5-47e1-a3ff-5733052082d2",
+      "fullStatement": "Identify AWS technical resources and support options including Support Plans, TAMs, and the AWS Partner Network.",
+      "humanCodingScheme": "4.3",
+      "abbreviatedStatement": "Technical Support Options",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["Support Plans", "TAM", "AWS Partner Network"],
+      "subject": ["Cloud Computing"],
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+        "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548",
+        "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548"
+      }
+    }
+  ],
+  "CFAssociations": [
+    {
+      "identifier": "54d4e486-fcc5-4e26-986d-0983d98a693d",
+      "uri": "urn:uuid:54d4e486-fcc5-4e26-986d-0983d98a693d",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Cloud Concepts", "identifier": "18f297af-a400-4b09-b00a-d41f51a53b2c", "uri": "urn:uuid:18f297af-a400-4b09-b00a-d41f51a53b2c", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "4fd81dc2-b576-47a3-9540-2b4d5e38ed99",
+      "uri": "urn:uuid:4fd81dc2-b576-47a3-9540-2b4d5e38ed99",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Benefits of AWS Cloud", "identifier": "76bce768-ac03-4e8b-acce-7f87a979525d", "uri": "urn:uuid:76bce768-ac03-4e8b-acce-7f87a979525d", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Concepts", "identifier": "18f297af-a400-4b09-b00a-d41f51a53b2c", "uri": "urn:uuid:18f297af-a400-4b09-b00a-d41f51a53b2c", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "5a5f7aba-f380-4227-9286-e93778bd03b5",
+      "uri": "urn:uuid:5a5f7aba-f380-4227-9286-e93778bd03b5",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "AWS Cloud Design Principles", "identifier": "afe91ca3-b1ec-4bed-8949-8852a9cd2de0", "uri": "urn:uuid:afe91ca3-b1ec-4bed-8949-8852a9cd2de0", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Concepts", "identifier": "18f297af-a400-4b09-b00a-d41f51a53b2c", "uri": "urn:uuid:18f297af-a400-4b09-b00a-d41f51a53b2c", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "d65c55b7-8f0a-4844-88c1-49290ab7bf71",
+      "uri": "urn:uuid:d65c55b7-8f0a-4844-88c1-49290ab7bf71",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Cloud Migration Strategies", "identifier": "b2ba27dc-38e8-4f5f-93bc-ec443f75f6d4", "uri": "urn:uuid:b2ba27dc-38e8-4f5f-93bc-ec443f75f6d4", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Concepts", "identifier": "18f297af-a400-4b09-b00a-d41f51a53b2c", "uri": "urn:uuid:18f297af-a400-4b09-b00a-d41f51a53b2c", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "01ce5e7e-7909-48e8-91c1-8d408fd0d40b",
+      "uri": "urn:uuid:01ce5e7e-7909-48e8-91c1-8d408fd0d40b",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Cloud Economics", "identifier": "a3037dfc-37eb-449d-a5af-231ba2f5b4a5", "uri": "urn:uuid:a3037dfc-37eb-449d-a5af-231ba2f5b4a5", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Concepts", "identifier": "18f297af-a400-4b09-b00a-d41f51a53b2c", "uri": "urn:uuid:18f297af-a400-4b09-b00a-d41f51a53b2c", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 4,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "dedda9fb-d799-4b83-8c61-f60937c803d3",
+      "uri": "urn:uuid:dedda9fb-d799-4b83-8c61-f60937c803d3",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Security and Compliance", "identifier": "6585a5e0-96ff-43ba-b7e5-6e759822123a", "uri": "urn:uuid:6585a5e0-96ff-43ba-b7e5-6e759822123a", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "1f3dbfe8-6498-4bd6-9f77-66454929092a",
+      "uri": "urn:uuid:1f3dbfe8-6498-4bd6-9f77-66454929092a",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Shared Responsibility Model", "identifier": "2ec80ed5-0b32-41b7-b9d9-8305c4c7e036", "uri": "urn:uuid:2ec80ed5-0b32-41b7-b9d9-8305c4c7e036", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Security and Compliance", "identifier": "6585a5e0-96ff-43ba-b7e5-6e759822123a", "uri": "urn:uuid:6585a5e0-96ff-43ba-b7e5-6e759822123a", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "5a99c231-03de-451e-a0c0-a2498fb6932a",
+      "uri": "urn:uuid:5a99c231-03de-451e-a0c0-a2498fb6932a",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Cloud Security and Governance", "identifier": "c86ccaa0-912c-45e5-bfe7-94549ff6f42a", "uri": "urn:uuid:c86ccaa0-912c-45e5-bfe7-94549ff6f42a", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Security and Compliance", "identifier": "6585a5e0-96ff-43ba-b7e5-6e759822123a", "uri": "urn:uuid:6585a5e0-96ff-43ba-b7e5-6e759822123a", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "f936c384-86c4-44bd-929e-7e4b7b01d702",
+      "uri": "urn:uuid:f936c384-86c4-44bd-929e-7e4b7b01d702",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Access Management", "identifier": "d3f7e247-ab3d-41a0-ab07-83d390057a5a", "uri": "urn:uuid:d3f7e247-ab3d-41a0-ab07-83d390057a5a", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Security and Compliance", "identifier": "6585a5e0-96ff-43ba-b7e5-6e759822123a", "uri": "urn:uuid:6585a5e0-96ff-43ba-b7e5-6e759822123a", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "6ace6d91-ae42-420f-a690-dbcfbc05f323",
+      "uri": "urn:uuid:6ace6d91-ae42-420f-a690-dbcfbc05f323",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Security Support Resources", "identifier": "e599659b-870d-4268-9ee3-cb0c0b51cde4", "uri": "urn:uuid:e599659b-870d-4268-9ee3-cb0c0b51cde4", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Security and Compliance", "identifier": "6585a5e0-96ff-43ba-b7e5-6e759822123a", "uri": "urn:uuid:6585a5e0-96ff-43ba-b7e5-6e759822123a", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 4,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "1115d6c9-cec1-4929-90d5-2c26dd1deb22",
+      "uri": "urn:uuid:1115d6c9-cec1-4929-90d5-2c26dd1deb22",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Cloud Technology and Services", "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d", "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "fd0618ab-92c6-4153-868b-021c5306453d",
+      "uri": "urn:uuid:fd0618ab-92c6-4153-868b-021c5306453d",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Deployment Methods", "identifier": "6b0143a8-2728-47b7-8f6c-2baab633d914", "uri": "urn:uuid:6b0143a8-2728-47b7-8f6c-2baab633d914", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Technology and Services", "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d", "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "011f4e3a-6d6c-4b87-855b-c9def5c97cd3",
+      "uri": "urn:uuid:011f4e3a-6d6c-4b87-855b-c9def5c97cd3",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Global Infrastructure", "identifier": "6718baa1-810b-46b6-af12-56824bef2f9c", "uri": "urn:uuid:6718baa1-810b-46b6-af12-56824bef2f9c", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Technology and Services", "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d", "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "1a19c1de-1a68-478b-a8cd-1a6da205c543",
+      "uri": "urn:uuid:1a19c1de-1a68-478b-a8cd-1a6da205c543",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Compute Services", "identifier": "ee743d09-8991-4afc-aab4-6c5d2ffdbbd3", "uri": "urn:uuid:ee743d09-8991-4afc-aab4-6c5d2ffdbbd3", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Technology and Services", "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d", "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "e814f5b2-1575-4550-baf4-15e6e0d4fe4d",
+      "uri": "urn:uuid:e814f5b2-1575-4550-baf4-15e6e0d4fe4d",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Database Services", "identifier": "6d3ff79e-2365-435e-a43f-398b6c5eb898", "uri": "urn:uuid:6d3ff79e-2365-435e-a43f-398b6c5eb898", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Technology and Services", "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d", "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 4,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "77274802-1622-473b-9f22-73ffe226af7a",
+      "uri": "urn:uuid:77274802-1622-473b-9f22-73ffe226af7a",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Networking Services", "identifier": "aa74947f-0a45-444a-9265-9a722fddcae7", "uri": "urn:uuid:aa74947f-0a45-444a-9265-9a722fddcae7", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Technology and Services", "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d", "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 5,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "189c4aa1-148a-49bb-926c-560998044c30",
+      "uri": "urn:uuid:189c4aa1-148a-49bb-926c-560998044c30",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Storage Services", "identifier": "487cda9e-c0ae-4b69-9c04-a0ccc0505d70", "uri": "urn:uuid:487cda9e-c0ae-4b69-9c04-a0ccc0505d70", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Technology and Services", "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d", "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 6,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "3e0f5a28-f1f3-4eb9-b548-1008faa3ff66",
+      "uri": "urn:uuid:3e0f5a28-f1f3-4eb9-b548-1008faa3ff66",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "AI/ML and Analytics Services", "identifier": "46dc37bd-1179-4f21-a51d-a1eb3a4e9d37", "uri": "urn:uuid:46dc37bd-1179-4f21-a51d-a1eb3a4e9d37", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Cloud Technology and Services", "identifier": "0a49fbbf-d62c-47f8-a446-8a507d68411d", "uri": "urn:uuid:0a49fbbf-d62c-47f8-a446-8a507d68411d", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 7,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "8bd985d2-412f-4a65-a8b3-3add7365d33c",
+      "uri": "urn:uuid:8bd985d2-412f-4a65-a8b3-3add7365d33c",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Billing, Pricing, and Support", "identifier": "2da32062-d9e5-48cb-b696-69695cbb03e0", "uri": "urn:uuid:2da32062-d9e5-48cb-b696-69695cbb03e0", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548", "targetType": "CFDocument" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 4,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "c389393f-0262-4520-a370-e403246c690e",
+      "uri": "urn:uuid:c389393f-0262-4520-a370-e403246c690e",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Pricing Models", "identifier": "8771ade7-e0df-4180-8f43-964b88ae4b15", "uri": "urn:uuid:8771ade7-e0df-4180-8f43-964b88ae4b15", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Billing, Pricing, and Support", "identifier": "2da32062-d9e5-48cb-b696-69695cbb03e0", "uri": "urn:uuid:2da32062-d9e5-48cb-b696-69695cbb03e0", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "74a6cb4f-9a02-4e03-a041-087686ec31b0",
+      "uri": "urn:uuid:74a6cb4f-9a02-4e03-a041-087686ec31b0",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Billing and Cost Management", "identifier": "1d3e98c3-0d7a-4127-8609-054e784f0d0e", "uri": "urn:uuid:1d3e98c3-0d7a-4127-8609-054e784f0d0e", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Billing, Pricing, and Support", "identifier": "2da32062-d9e5-48cb-b696-69695cbb03e0", "uri": "urn:uuid:2da32062-d9e5-48cb-b696-69695cbb03e0", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "a247ff32-4e5c-4a32-82ed-f184bd201621",
+      "uri": "urn:uuid:a247ff32-4e5c-4a32-82ed-f184bd201621",
+      "associationType": "isChildOf",
+      "originNodeURI": { "title": "Technical Support Options", "identifier": "8c294d15-79c5-47e1-a3ff-5733052082d2", "uri": "urn:uuid:8c294d15-79c5-47e1-a3ff-5733052082d2", "targetType": "CFItem" },
+      "destinationNodeURI": { "title": "Billing, Pricing, and Support", "identifier": "2da32062-d9e5-48cb-b696-69695cbb03e0", "uri": "urn:uuid:2da32062-d9e5-48cb-b696-69695cbb03e0", "targetType": "CFItem" },
+      "CFDocumentURI": { "title": "AWS Certified Cloud Practitioner (CLF-C02) Exam Guide", "identifier": "5adbed20-c70e-4f9a-a776-81b55e9db548", "uri": "urn:uuid:5adbed20-c70e-4f9a-a776-81b55e9db548" },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    }
+  ],
+  "CFDefinitions": {
+    "CFSubjects": [
+      {
+        "identifier": "bb230d0d-4a23-41e8-82c5-607a9113f013",
+        "uri": "urn:uuid:bb230d0d-4a23-41e8-82c5-607a9113f013",
+        "title": "Cloud Computing",
+        "description": "Cloud computing concepts, services, and architecture",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFItemTypes": [
+      {
+        "identifier": "1d3795d0-a581-41f2-913a-b2475dafa6e3",
+        "uri": "urn:uuid:1d3795d0-a581-41f2-913a-b2475dafa6e3",
+        "title": "Domain",
+        "description": "A broad exam domain grouping related competencies",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      },
+      {
+        "identifier": "b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "uri": "urn:uuid:b6982d0a-5d81-46e1-9880-cb56e09acd94",
+        "title": "Competency",
+        "description": "A specific exam objective or competency within a domain",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFConcepts": [],
+    "CFLicenses": [],
+    "CFAssociationGroupings": []
+  }
+}

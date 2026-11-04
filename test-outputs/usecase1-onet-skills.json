@@ -1,0 +1,433 @@
+{
+  "CFDocument": {
+    "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+    "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+    "creator": "U.S. Bureau of Labor Statistics / O*NET OnLine",
+    "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+    "lastChangeDateTime": "2026-03-11T20:16:00Z",
+    "caseVersion": "1.1",
+    "description": "Worker-level skill importance ratings for the Software Developer occupation, derived from O*NET OnLine occupational data.",
+    "publisher": "U.S. Department of Labor",
+    "subject": ["Software Development"],
+    "subjectURI": [
+      {
+        "title": "Software Development",
+        "identifier": "742a2f16-2a91-442e-b2fb-a17e50b404dd",
+        "uri": "urn:uuid:742a2f16-2a91-442e-b2fb-a17e50b404dd"
+      }
+    ],
+    "language": "en-US",
+    "version": "1.0",
+    "adoptionStatus": "Adopted",
+    "statusStartDate": "2026-03-11",
+    "frameworkType": "Industry Competency",
+    "CFPackageURI": {
+      "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+      "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+      "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+    }
+  },
+  "CFItems": [
+    {
+      "identifier": "5e9a32d0-3c47-4885-8418-ba81c2b62c19",
+      "uri": "urn:uuid:5e9a32d0-3c47-4885-8418-ba81c2b62c19",
+      "fullStatement": "Writing computer programs for various purposes.",
+      "humanCodingScheme": "SD.1",
+      "abbreviatedStatement": "Programming",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": {
+        "title": "Skill",
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["programming", "coding", "software development"],
+      "subject": ["Software Development"],
+      "notes": "Importance: 88/100",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      }
+    },
+    {
+      "identifier": "c9a4bfa8-9cca-448b-924b-fb66058d4ddc",
+      "uri": "urn:uuid:c9a4bfa8-9cca-448b-924b-fb66058d4ddc",
+      "fullStatement": "Determining how a system should work and how changes in conditions, operations, and the environment will affect outcomes.",
+      "humanCodingScheme": "SD.2",
+      "abbreviatedStatement": "Systems Analysis",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": {
+        "title": "Skill",
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["systems analysis", "systems thinking", "impact analysis"],
+      "subject": ["Software Development"],
+      "notes": "Importance: 78/100",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      }
+    },
+    {
+      "identifier": "9db2255b-3a63-4f92-b0ff-1ff5128bd7ea",
+      "uri": "urn:uuid:9db2255b-3a63-4f92-b0ff-1ff5128bd7ea",
+      "fullStatement": "Identifying complex problems and reviewing related information to develop and evaluate options and implement solutions.",
+      "humanCodingScheme": "SD.3",
+      "abbreviatedStatement": "Complex Problem Solving",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": {
+        "title": "Skill",
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["problem solving", "analytical thinking", "solution design"],
+      "subject": ["Software Development"],
+      "notes": "Importance: 75/100",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      }
+    },
+    {
+      "identifier": "4e7698b4-1064-4733-866c-150f3fcc9cf2",
+      "uri": "urn:uuid:4e7698b4-1064-4733-866c-150f3fcc9cf2",
+      "fullStatement": "Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions, or approaches to problems.",
+      "humanCodingScheme": "SD.4",
+      "abbreviatedStatement": "Critical Thinking",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": {
+        "title": "Skill",
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["critical thinking", "logic", "reasoning"],
+      "subject": ["Software Development"],
+      "notes": "Importance: 72/100",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      }
+    },
+    {
+      "identifier": "d483e030-a649-499f-b491-e23275756633",
+      "uri": "urn:uuid:d483e030-a649-499f-b491-e23275756633",
+      "fullStatement": "Conducting tests and inspections of products, services, or processes to evaluate quality or performance.",
+      "humanCodingScheme": "SD.5",
+      "abbreviatedStatement": "Quality Control Analysis",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": {
+        "title": "Skill",
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["quality assurance", "testing", "inspection"],
+      "subject": ["Software Development"],
+      "notes": "Importance: 66/100",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      }
+    },
+    {
+      "identifier": "44d15509-2572-415a-9c91-ce8fd494c214",
+      "uri": "urn:uuid:44d15509-2572-415a-9c91-ce8fd494c214",
+      "fullStatement": "Understanding the implications of new information for both current and future problem-solving and decision-making.",
+      "humanCodingScheme": "SD.6",
+      "abbreviatedStatement": "Active Learning",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": {
+        "title": "Skill",
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["active learning", "continuous improvement", "adaptability"],
+      "subject": ["Software Development"],
+      "notes": "Importance: 63/100",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      }
+    },
+    {
+      "identifier": "12465085-a086-4f24-be88-66d5150905b8",
+      "uri": "urn:uuid:12465085-a086-4f24-be88-66d5150905b8",
+      "fullStatement": "Using mathematics to solve problems.",
+      "humanCodingScheme": "SD.7",
+      "abbreviatedStatement": "Mathematics",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": {
+        "title": "Skill",
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["mathematics", "quantitative reasoning", "computation"],
+      "subject": ["Software Development"],
+      "notes": "Importance: 60/100",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      }
+    },
+    {
+      "identifier": "982f7f8b-5981-4571-b201-25df99ab4ca7",
+      "uri": "urn:uuid:982f7f8b-5981-4571-b201-25df99ab4ca7",
+      "fullStatement": "Considering the relative costs and benefits of potential actions to choose the most appropriate one.",
+      "humanCodingScheme": "SD.8",
+      "abbreviatedStatement": "Judgment and Decision Making",
+      "CFItemType": "Skill",
+      "CFItemTypeURI": {
+        "title": "Skill",
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7"
+      },
+      "language": "en-US",
+      "conceptKeywords": ["decision making", "judgment", "cost-benefit analysis"],
+      "subject": ["Software Development"],
+      "notes": "Importance: 59/100",
+      "lastChangeDateTime": "2026-03-11T20:16:00Z",
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      }
+    }
+  ],
+  "CFAssociations": [
+    {
+      "identifier": "10a53c69-f354-44d0-9045-96e057e5e314",
+      "uri": "urn:uuid:10a53c69-f354-44d0-9045-96e057e5e314",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Programming",
+        "identifier": "5e9a32d0-3c47-4885-8418-ba81c2b62c19",
+        "uri": "urn:uuid:5e9a32d0-3c47-4885-8418-ba81c2b62c19",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "705e31ca-a7ba-47b6-8b64-3fde5961f3e1",
+      "uri": "urn:uuid:705e31ca-a7ba-47b6-8b64-3fde5961f3e1",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Systems Analysis",
+        "identifier": "c9a4bfa8-9cca-448b-924b-fb66058d4ddc",
+        "uri": "urn:uuid:c9a4bfa8-9cca-448b-924b-fb66058d4ddc",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      },
+      "sequenceNumber": 2,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "a15d6d21-3c18-49f5-a8af-cc741194357e",
+      "uri": "urn:uuid:a15d6d21-3c18-49f5-a8af-cc741194357e",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Complex Problem Solving",
+        "identifier": "9db2255b-3a63-4f92-b0ff-1ff5128bd7ea",
+        "uri": "urn:uuid:9db2255b-3a63-4f92-b0ff-1ff5128bd7ea",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      },
+      "sequenceNumber": 3,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "a7ae5817-2e90-458a-87aa-445562aa44d8",
+      "uri": "urn:uuid:a7ae5817-2e90-458a-87aa-445562aa44d8",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Critical Thinking",
+        "identifier": "4e7698b4-1064-4733-866c-150f3fcc9cf2",
+        "uri": "urn:uuid:4e7698b4-1064-4733-866c-150f3fcc9cf2",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      },
+      "sequenceNumber": 4,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "bbdcb788-6ed1-4623-bf00-6fd2251cbe2e",
+      "uri": "urn:uuid:bbdcb788-6ed1-4623-bf00-6fd2251cbe2e",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Quality Control Analysis",
+        "identifier": "d483e030-a649-499f-b491-e23275756633",
+        "uri": "urn:uuid:d483e030-a649-499f-b491-e23275756633",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      },
+      "sequenceNumber": 5,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "25f9bac7-b2e5-4a50-93de-a87fbf45de57",
+      "uri": "urn:uuid:25f9bac7-b2e5-4a50-93de-a87fbf45de57",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Active Learning",
+        "identifier": "44d15509-2572-415a-9c91-ce8fd494c214",
+        "uri": "urn:uuid:44d15509-2572-415a-9c91-ce8fd494c214",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      },
+      "sequenceNumber": 6,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "6367af23-cc4e-45ec-98eb-33023861c3b2",
+      "uri": "urn:uuid:6367af23-cc4e-45ec-98eb-33023861c3b2",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Mathematics",
+        "identifier": "12465085-a086-4f24-be88-66d5150905b8",
+        "uri": "urn:uuid:12465085-a086-4f24-be88-66d5150905b8",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      },
+      "sequenceNumber": 7,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    },
+    {
+      "identifier": "e80cc6e8-f98a-4474-aa16-b8d3157b3396",
+      "uri": "urn:uuid:e80cc6e8-f98a-4474-aa16-b8d3157b3396",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Judgment and Decision Making",
+        "identifier": "982f7f8b-5981-4571-b201-25df99ab4ca7",
+        "uri": "urn:uuid:982f7f8b-5981-4571-b201-25df99ab4ca7",
+        "targetType": "CFItem"
+      },
+      "destinationNodeURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "targetType": "CFDocument"
+      },
+      "CFDocumentURI": {
+        "title": "O*NET Skills for Software Developer (SOC 15-1252)",
+        "identifier": "deb690fa-17f5-4846-9f4c-8ed3cd4c313d",
+        "uri": "urn:uuid:deb690fa-17f5-4846-9f4c-8ed3cd4c313d"
+      },
+      "sequenceNumber": 8,
+      "lastChangeDateTime": "2026-03-11T20:16:00Z"
+    }
+  ],
+  "CFDefinitions": {
+    "CFSubjects": [
+      {
+        "identifier": "742a2f16-2a91-442e-b2fb-a17e50b404dd",
+        "uri": "urn:uuid:742a2f16-2a91-442e-b2fb-a17e50b404dd",
+        "title": "Software Development",
+        "description": "Skills related to software development occupations",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFItemTypes": [
+      {
+        "identifier": "b3c52e34-130b-4e76-89f7-3363634969e7",
+        "uri": "urn:uuid:b3c52e34-130b-4e76-89f7-3363634969e7",
+        "title": "Skill",
+        "description": "A discrete occupational skill with measured importance",
+        "lastChangeDateTime": "2026-03-11T20:16:00Z"
+      }
+    ],
+    "CFConcepts": [],
+    "CFLicenses": [],
+    "CFAssociationGroupings": []
+  }
+}

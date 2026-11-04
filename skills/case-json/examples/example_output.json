@@ -1,0 +1,168 @@
+{
+  "CFDocument": {
+    "identifier": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "uri": "https://opensalt.example.com/ims/case/v1p1/CFDocuments/a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "creator": "Example Organization",
+    "title": "Digital Literacy Competency Framework",
+    "lastChangeDateTime": "2026-03-11T00:00:00Z",
+    "caseVersion": "1.1",
+    "description": "A framework defining digital literacy competencies for K-12 education",
+    "publisher": "Example Organization",
+    "subject": [
+      "Digital Literacy",
+      "Technology"
+    ],
+    "subjectURI": [
+      {
+        "title": "Digital Literacy",
+        "identifier": "11111111-1111-1111-1111-111111111111",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFSubjects/11111111-1111-1111-1111-111111111111"
+      }
+    ],
+    "language": "en-US",
+    "version": "1.0",
+    "adoptionStatus": "Draft",
+    "statusStartDate": "2026-03-11",
+    "CFPackageURI": {
+      "title": "Digital Literacy Competency Framework",
+      "identifier": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "uri": "https://opensalt.example.com/ims/case/v1p1/CFPackages/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+    }
+  },
+  "CFItems": [
+    {
+      "identifier": "aaaa1111-bbbb-cccc-dddd-eeee11111111",
+      "uri": "https://opensalt.example.com/ims/case/v1p1/CFItems/aaaa1111-bbbb-cccc-dddd-eeee11111111",
+      "fullStatement": "Use digital tools to find, evaluate, and synthesize information from multiple sources",
+      "humanCodingScheme": "DL.1",
+      "abbreviatedStatement": "Information Literacy",
+      "CFItemType": "Domain",
+      "CFItemTypeURI": {
+        "title": "Domain",
+        "identifier": "dddd1111-eeee-ffff-0000-111122223333",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFItemTypes/dddd1111-eeee-ffff-0000-111122223333"
+      },
+      "educationLevel": [
+        "K-12"
+      ],
+      "language": "en-US",
+      "conceptKeywords": [
+        "information literacy",
+        "digital research",
+        "source evaluation"
+      ],
+      "lastChangeDateTime": "2026-03-11T00:00:00Z",
+      "CFDocumentURI": {
+        "title": "Digital Literacy Competency Framework",
+        "identifier": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFDocuments/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    },
+    {
+      "identifier": "aaaa2222-bbbb-cccc-dddd-eeee22222222",
+      "uri": "https://opensalt.example.com/ims/case/v1p1/CFItems/aaaa2222-bbbb-cccc-dddd-eeee22222222",
+      "fullStatement": "Conduct effective searches using keywords, Boolean operators, and advanced search features",
+      "humanCodingScheme": "DL.1.1",
+      "abbreviatedStatement": "Effective Searching",
+      "CFItemType": "Competency",
+      "CFItemTypeURI": {
+        "title": "Competency",
+        "identifier": "dddd2222-eeee-ffff-0000-111122223333",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFItemTypes/dddd2222-eeee-ffff-0000-111122223333"
+      },
+      "educationLevel": [
+        "K-12"
+      ],
+      "language": "en-US",
+      "conceptKeywords": [
+        "search",
+        "Boolean operators",
+        "keywords"
+      ],
+      "lastChangeDateTime": "2026-03-11T00:00:00Z",
+      "CFDocumentURI": {
+        "title": "Digital Literacy Competency Framework",
+        "identifier": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFDocuments/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    }
+  ],
+  "CFAssociations": [
+    {
+      "identifier": "cccc1111-dddd-eeee-ffff-000011112222",
+      "uri": "https://opensalt.example.com/ims/case/v1p1/CFAssociations/cccc1111-dddd-eeee-ffff-000011112222",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Information Literacy",
+        "identifier": "aaaa1111-bbbb-cccc-dddd-eeee11111111",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFItems/aaaa1111-bbbb-cccc-dddd-eeee11111111"
+      },
+      "destinationNodeURI": {
+        "title": "Digital Literacy Competency Framework",
+        "identifier": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFDocuments/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      "CFDocumentURI": {
+        "title": "Digital Literacy Competency Framework",
+        "identifier": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFDocuments/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T00:00:00Z"
+    },
+    {
+      "identifier": "cccc2222-dddd-eeee-ffff-000011112222",
+      "uri": "https://opensalt.example.com/ims/case/v1p1/CFAssociations/cccc2222-dddd-eeee-ffff-000011112222",
+      "associationType": "isChildOf",
+      "originNodeURI": {
+        "title": "Effective Searching",
+        "identifier": "aaaa2222-bbbb-cccc-dddd-eeee22222222",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFItems/aaaa2222-bbbb-cccc-dddd-eeee22222222"
+      },
+      "destinationNodeURI": {
+        "title": "Information Literacy",
+        "identifier": "aaaa1111-bbbb-cccc-dddd-eeee11111111",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFItems/aaaa1111-bbbb-cccc-dddd-eeee11111111"
+      },
+      "CFDocumentURI": {
+        "title": "Digital Literacy Competency Framework",
+        "identifier": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFDocuments/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      "sequenceNumber": 1,
+      "lastChangeDateTime": "2026-03-11T00:00:00Z"
+    }
+  ],
+  "CFDefinitions": {
+    "CFSubjects": [
+      {
+        "identifier": "11111111-1111-1111-1111-111111111111",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFSubjects/11111111-1111-1111-1111-111111111111",
+        "title": "Digital Literacy",
+        "lastChangeDateTime": "2026-03-11T00:00:00Z",
+        "hierarchyCode": "DL"
+      }
+    ],
+    "CFItemTypes": [
+      {
+        "identifier": "dddd1111-eeee-ffff-0000-111122223333",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFItemTypes/dddd1111-eeee-ffff-0000-111122223333",
+        "title": "Domain",
+        "description": "A broad area of competency",
+        "lastChangeDateTime": "2026-03-11T00:00:00Z",
+        "hierarchyCode": "DL.DOM"
+      },
+      {
+        "identifier": "dddd2222-eeee-ffff-0000-111122223333",
+        "uri": "https://opensalt.example.com/ims/case/v1p1/CFItemTypes/dddd2222-eeee-ffff-0000-111122223333",
+        "title": "Competency",
+        "description": "A specific competency or skill",
+        "lastChangeDateTime": "2026-03-11T00:00:00Z",
+        "hierarchyCode": "DL.COMP"
+      }
+    ],
+    "CFConcepts": [],
+    "CFLicenses": [],
+    "CFAssociationGroupings": []
+  }
+}

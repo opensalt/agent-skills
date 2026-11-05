@@ -20,6 +20,7 @@ Checks performed:
   - globally unique identifiers across the whole package
   - salt:type item kinds, incl. `ob3` credential payload parsing
   - CFItemType label-only usage (item type not declared / not referenced)
+  - humanCodingScheme quality (duplicates, whitespace, machine-ID-shaped values)
   - adoptionStatus values (warns on non-recommended or legacy spellings)
   - rubric criterion/level structure
 
@@ -37,6 +38,7 @@ UUID_RE = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 EXT_ASSOC_RE = re.compile(r"^ext:[a-zA-Z0-9._-]+$")
 CASE_URI_RE = re.compile(r"/ims/case/v1p1/([A-Za-z]+)/([^/]+)$")
+MACHINE_ID_SCHEME_RE = re.compile(r"^[a-z]{1,6}_[0-9A-Za-z_-]{6,}$")
 
 SALT_KINDS = {"job", "course", "assessment", "credential",
               "organization", "identifier", "public_key"}
@@ -293,6 +295,18 @@ def check_item(item, doc_ident, doc_title, index, declared_types):
         elif isinstance(itype, str) and itype and decl.get("title") != itype:
             warn(f"{loc}.CFItemTypeURI",
                  f"declared title {decl.get('title')!r} does not match the item's CFItemType {itype!r}")
+
+    # ---- humanCodingScheme quality
+    scheme = item.get("humanCodingScheme")
+    if isinstance(scheme, str) and scheme:
+        if any(ch.isspace() for ch in scheme):
+            warn(f"{loc}.humanCodingScheme",
+                 f"contains whitespace — coding schemes are normally space-free ({scheme!r})")
+        elif MACHINE_ID_SCHEME_RE.match(scheme):
+            warn(f"{loc}.humanCodingScheme",
+                 f"looks like an opaque machine ID, not a human-readable code ({scheme!r}) — "
+                 f"keep machine IDs in extensions and synthesize a hierarchical scheme "
+                 f"(e.g. CMP.D01.A05.T03, indexes from sibling order)")
 
     # ---- OpenSALT item kinds
     ext = item.get("extensions")
@@ -596,8 +610,19 @@ def validate(data):
         if not isinstance(items, list):
             err("CFItems", f"must be an array, got {type(items).__name__}")
         else:
+            seen_schemes = {}
             for i, item in enumerate(items):
                 check_item(item, doc_ident, doc_title, i, declared_types)
+                if isinstance(item, dict):
+                    scheme = item.get("humanCodingScheme")
+                    if isinstance(scheme, str) and scheme:
+                        if scheme in seen_schemes:
+                            warn(f"CFItems[{i}].humanCodingScheme",
+                                 f"duplicate coding scheme {scheme!r} (first used at "
+                                 f"CFItems[{seen_schemes[scheme]}]) — schemes should be unique "
+                                 f"within the framework")
+                        else:
+                            seen_schemes[scheme] = i
 
     known = collect_known(doc, data)
     assoc = data.get("CFAssociations")

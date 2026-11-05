@@ -110,7 +110,7 @@ Each `CFItem` represents either:
 | Field | Type | Notes |
 |---|---|---|
 | `CFDocumentURI` | `LinkURI` | Recommended compatibility field |
-| `humanCodingScheme` | string | Preserve source code like `2.OA.1` |
+| `humanCodingScheme` | string | Preserve source codes like `2.OA.1`; when the source has none, synthesize a hierarchical, space-free code from tree position (see SKILL.md) — never an opaque machine ID |
 | `listEnumeration` | string | Optional list marker, not a substitute for `sequenceNumber` |
 | `abbreviatedStatement` | string | Short form of the statement |
 | `alternativeLabel` | string | Alternate label if the source uses one |

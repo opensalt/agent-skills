@@ -141,6 +141,19 @@ Map each extracted statement or grouping node to a `CFItem`:
 
 Preserve original wording in `fullStatement`. Do not rewrite standards into a different voice unless the source is fragmentary and the fragment itself is the only available statement.
 
+### Synthesizing human coding schemes
+
+`humanCodingScheme` is a human-readable code that communicates tree position — it is not an identifier. When the source has real standards codes, preserve them (mapping table above). When it does not, synthesize one. **Never copy opaque machine identifiers** (hashes, nanoid-style IDs like `mt_Xy12ab34`, UUIDs) into this field — carry those in namespaced `extensions` keys (e.g. `"source:topicId"`) or `notes`.
+
+Synthesis recipe:
+
+1. Give each top-level grouping a short code: a 3–4 letter abbreviation or a sequential code (`CMP`, `ENG`, … or `S01`, `S02`, …).
+2. Append one dotted segment per level below it: zero-padded sibling indexes (`CMP.D01.A05.T03`).
+3. Derive every index from sibling order — the same order used for `sequenceNumber` — so codes are deterministic and stable across republished versions.
+4. No spaces, ampersands, or punctuation beyond dots and hyphens. Aim for ≤ 40 characters: abbreviate long level names and use indexes, not titles (`CMP.D01.A05.T03`, not `CMP.Algorithms & Programming.age5.T03`).
+5. Uniqueness across the framework is mandatory — the validator warns on duplicate schemes.
+6. Record the convention in `CFDocument.notes` (e.g. "Coding scheme synthesized as SUBJECT.DOMAIN.BAND.TOPIC from source order") so consumers can decode it.
+
 ## Phase 5: Create Definitions Only When They Are Actually Used
 
 Use `CFDefinitions` for reusable vocabulary:
@@ -298,6 +311,7 @@ Before writing the file, verify:
 - every `subjectURI` resolves to a defined `CFSubject`
 - every generated `CFItemType` has a `description`
 - every definition object has `hierarchyCode` (CFItemTypes, CFSubjects, CFConcepts) and `lastChangeDateTime`
+- every `humanCodingScheme` is human-meaningful: no opaque machine IDs, no whitespace, unique across the framework
 - `conceptKeywordsURI`, if used, is a single `LinkURI`
 - `caseVersion` is `"1.1"`
 - `CFPackageURI` points to the document itself

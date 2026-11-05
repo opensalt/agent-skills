@@ -61,7 +61,7 @@ These are the rules OpenSALT validates or silently mangles when violated:
 ## Hierarchy and ordering
 
 - Items with no incoming `isChildOf` render as top-level nodes; every other item needs exactly one `isChildOf` (multiple parents is valid CASE but complicates the tree — use only for intentional cross-listing).
-- Give every item a `humanCodingScheme` when the source has codes (e.g. `MATH-7.ALG.1`) and use `listEnumeration` for source list position.
+- Give every item a `humanCodingScheme`: preserve source codes (e.g. `MATH-7.ALG.1`); when the source has none, synthesize a hierarchical, space-free one from tree position (`CMP.D01.A05.T03`, indexes derived from sibling order) — never an opaque machine ID (those belong in namespaced `extensions`). Use `listEnumeration` for verbatim source numbering.
 - `CFItemType` is a **label only** — OpenSALT keeps it for the editor but does **not** preserve it as the item type on export. To keep a type, declare it once in `CFDefinitions.CFItemTypes` (each needs `identifier`, `uri`, `title`, `hierarchyCode`, `lastChangeDateTime`) and point the item's `CFItemTypeURI` at that declaration. Use this for levels like "Strand"/"Competency"/"Standard".
 - OpenSALT **item kinds** (`extensions.salt:type`) and CASE **item types** (`CFItemType`) are independent — a `course` item may also carry a `CFItemType`, but they don't have to correspond.
 
@@ -102,7 +102,7 @@ python3 <skill-dir>/scripts/validate_case_package.py package.json
 # options: --strict (warnings fail) · --summary (counts by kind and association type)
 ```
 
-Exit 0 = no errors; exit 1 = errors listed with location (`CFItems[3]`, field, reason). It checks the invariants table above end-to-end: required fields, UUID/URI/datetime formats, `LinkURI` shape, association types, referential integrity of association endpoints, duplicate identifiers, kind-specific requirements (`ob3` must parse as JSON), label-only `CFItemType` usage (type not declared or not referenced), `adoptionStatus` spellings, and rubric structure. Treat warnings as review items, not noise — a warning is usually a real defect in a distributed package.
+Exit 0 = no errors; exit 1 = errors listed with location (`CFItems[3]`, field, reason). It checks the invariants table above end-to-end: required fields, UUID/URI/datetime formats, `LinkURI` shape, association types, referential integrity of association endpoints, duplicate identifiers, kind-specific requirements (`ob3` must parse as JSON), label-only `CFItemType` usage (type not declared or not referenced), `adoptionStatus` spellings, `humanCodingScheme` quality (duplicates, whitespace, machine-ID-shaped values), and rubric structure. Treat warnings as review items, not noise — a warning is usually a real defect in a distributed package.
 
 ## Uploading to OpenSALT
 

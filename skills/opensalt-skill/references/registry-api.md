@@ -26,6 +26,10 @@ Notes:
 
 ### Markdown and other representations via `/uri/`
 
+`/uri/` is OpenSALT's parallel, non-spec URI space for the same objects the CASE paths serve. The 1EdTech CASE specification requires the `/ims/case/v1p1/…` endpoints to serve only JSON, so additional representations live here: `/uri/{identifier}` resolves the same object as the CASE path, negotiated by `Accept` or suffix.
+
+`/uri/` is also what OpenSALT itself mints: objects created in the editor (and `local:` uris on import) get `https://{host}/uri/{identifier}` via the `uri_lookup` route. Since the JSON-LD serialization uses the stored `uri` as the node identifier, and the stored `uri` is permanent (exports echo it verbatim — only `local:` uris regenerate, and the package uri's `CFDocuments` segment is patched to `CFPackages`), author `uri` values in the `/uri/` space when JSON-LD/RDF consumption or format-agnostic dereferencing matters; the spec-shaped pattern remains valid for pure-CASE-ecosystem distribution. Use one convention consistently across the framework — association endpoints and crosswalks reference these URIs verbatim.
+
 Content-negotiated view of any object that has an identifier:
 
 | Request | Returns |

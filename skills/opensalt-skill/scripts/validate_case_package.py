@@ -12,7 +12,7 @@ Exit codes:
 Checks performed:
   - required fields on every object type
   - lowercase UUID identifiers (8-4-4-4-12 hex)
-  - URI construction: https://{host}/ims/case/v1p1/{ObjectType}/{identifier}
+  - URI conventions: https://{host}/uri/{identifier} (OpenSALT-native) or https://{host}/ims/case/v1p1/{ObjectType}/{identifier} (CASE spec shape)
   - ISO 8601 lastChangeDateTime with timezone; YYYY-MM-DD status dates
   - LinkURI (title/identifier/uri) and LinkGenURI (+targetType) shape
   - associationType is a base type or ext: extension
@@ -38,6 +38,7 @@ UUID_RE = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 EXT_ASSOC_RE = re.compile(r"^ext:[a-zA-Z0-9._-]+$")
 CASE_URI_RE = re.compile(r"/ims/case/v1p1/([A-Za-z]+)/([^/]+)$")
+URI_LOOKUP_RE = re.compile(r"^/uri/(p?[^/]+)$")
 MACHINE_ID_SCHEME_RE = re.compile(r"^[a-z]{1,6}_[0-9A-Za-z_-]{6,}$")
 
 SALT_KINDS = {"job", "course", "assessment", "credential",
@@ -113,19 +114,34 @@ def is_str_or_str_array(v):
 
 
 def check_uri_shape(obj, field, expected_segment, loc):
-    """URI must be valid; if it follows the CASE pattern, segment and
-    identifier suffix must match the object. The server stores URIs as
-    sent, so mismatches are warnings — but they break external consumers
-    that dereference links, so they should be fixed in distributed packages."""
+    """URI must be a valid URI. The two accepted conventions embed the
+    object's identifier as the path tail — OpenSALT-native
+    `https://{host}/uri/{identifier}` (package documents: `/uri/p{identifier}`)
+    or CASE-spec-shaped `https://{host}/ims/case/v1p1/{ObjectType}/{identifier}` —
+    but identifier-embedding is convention, not requirement: linked data allows
+    any valid URI. The server stores URIs as sent and echoes them verbatim on
+    export, so deviations are warnings — they break external consumers that
+    dereference links, so they should be fixed in distributed packages."""
     uri = obj.get(field)
     if not is_uri(uri):
         err(f"{loc}.{field}", f"not a valid URI: {uri!r}")
         return
-    m = CASE_URI_RE.search(urlsplit(uri).path)
+    path = urlsplit(uri).path
+    m = URI_LOOKUP_RE.match(path)
+    if m:
+        # OpenSALT-native /uri/ space: identifier suffix (package docs use the p prefix)
+        suffix = m.group(1)
+        if suffix != obj.get("identifier") and suffix != "p" + str(obj.get("identifier")):
+            warn(f"{loc}.{field}", f"URI identifier suffix {suffix!r} does not match "
+                                   f"object identifier {obj.get('identifier')!r} in {uri}")
+        return
+    m = CASE_URI_RE.search(path)
     if not m:
-        warn(f"{loc}.{field}", f"URI does not follow the CASE pattern "
-                               f"https://{{host}}/ims/case/v1p1/{{ObjectType}}/{{identifier}}: {uri} "
-                               f"(the URI is stored as sent, but following the pattern keeps external consumers working)")
+        warn(f"{loc}.{field}", f"URI does not follow an accepted convention "
+                               f"(https://{{host}}/uri/{{identifier}} or "
+                               f"https://{{host}}/ims/case/v1p1/{{ObjectType}}/{{identifier}}): {uri} "
+                               f"(the URI is stored as sent and echoed on export, but following "
+                               f"a convention keeps external consumers working)")
         return
     segment, suffix = m.group(1), m.group(2)
     if segment not in URI_SEGMENTS:

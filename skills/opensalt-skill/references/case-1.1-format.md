@@ -760,6 +760,8 @@ OpenSALT constructs URIs using the pattern:
 https://{host}/ims/case/v1p1/{ObjectType}/{identifier}
 ```
 
+OpenSALT's own identifier space is `https://{host}/uri/{identifier}` — the `uri_lookup` route used by the editor and the JSON-LD view. Either convention may be authored; see the registry API reference for guidance on choosing.
+
 Where `ObjectType` is one of: `CFDocuments`, `CFItems`, `CFAssociations`, `CFSubjects`, `CFLicenses`, `CFItemTypes`, `CFConcepts`, `CFAssociationGroupings`, `CFRubrics`, `CFRubricCriteria`, `CFRubricCriterionLevels`, `CFPackages`.
 
 ### URIs are stored as sent

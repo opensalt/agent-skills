@@ -84,6 +84,8 @@ python3 skills/opensalt-skill/scripts/validate_case_package.py package.json
 
 It checks required fields, UUID/URI/datetime formats, `LinkURI` shape, association types and referential integrity, duplicate identifiers, OpenSALT item kinds (`ob3` credential payload), label-only `CFItemType` usage, `adoptionStatus` spellings, and rubric structure.
 
+For the post-generation **quality-control pass** — mechanical inventory, content-fidelity sampling, and the human sign-off gate — see `skills/opensalt-skill/references/quality-control.md`; `skills/opensalt-skill/scripts/qc_inventory.py` produces the shape/coverage inventory report that complements the validator.
+
 ## Provenance and syncing
 
 The bundled references are snapshots, dated in their footers:

@@ -35,7 +35,8 @@ One `.json` file with this top-level shape (only `CFDocument` is required):
 2. **Read the format reference** ([references/case-1.1-format.md](references/case-1.1-format.md)) for any object type you have not produced before — it has every field table, required/optional flags, and complete import examples (minimal and full). Do not guess field names from memory.
 3. **Generate the package.** Use real UUIDs (`uuidgen` or `uuid.uuid4()`), lowercase. Pick **one URI convention for the whole framework** and use it everywhere: for OpenSALT-published frameworks prefer the registry's own identifier space, `https://{host}/uri/{identifier}` (package document: `/uri/p{identifier}`) — it is what OpenSALT itself mints, it dereferences with content negotiation for every format, and it keeps JSON-LD node identifiers self-resolving. The spec-shaped alternative, `https://{host}/ims/case/v1p1/{ObjectType}/{identifier}` (`ObjectType` = plural segment: `CFDocuments`, `CFItems`, `CFAssociations`, `CFSubjects`, `CFLicenses`, `CFItemTypes`, `CFConcepts`, `CFAssociationGroupings`, `CFRubrics`, `CFRubricCriteria`, `CFRubricCriterionLevels`, `CFPackages`), is for pure-CASE-ecosystem distribution. Embedding the object's identifier as the URI's tail is the convention (matching the spec API and OpenSALT's default scheme), not a technical requirement — any valid URI is allowed, and the validator warns rather than errors on deviations. Set `lastChangeDateTime` to one consistent timestamp for the whole package.
 4. **Validate** with the bundled script (below). Fix every error, review warnings, re-run.
-5. **Distribute**: deliver the JSON file, and/or upload to an OpenSALT registry via `/api/v1` (below). After upload, verify by fetching the package back and comparing identifiers.
+5. **Quality-check** the first draft — the validator proves structure, not content. Run the mechanical inventory (`scripts/qc_inventory.py`), sample content fidelity against the source (a handful of items per type), complete the metadata/conventions checklist, and write a QC report for **human sign-off**. Full pass on first creation, delta pass on republish — see [references/quality-control.md](references/quality-control.md). Do not deliver or publish without the sign-off.
+6. **Distribute**: deliver the JSON file, and/or upload to an OpenSALT registry via `/api/v1` (below). After upload, verify by fetching the package back and comparing identifiers.
 
 ## Hard invariants
 
@@ -165,6 +166,8 @@ Read [references/case-1.1-format.md](references/case-1.1-format.md) when you nee
 - `LinkURI` vs `LinkGenURI` → § LinkURI and LinkGenURI
 - URI construction and `local:` URIs → § Identifiers and URIs
 - Complete import examples to copy shape from → § Complete Import Examples (minimal and full)
+
+Read [references/quality-control.md](references/quality-control.md) when a framework has been created and needs its QC pass before delivery — it defines the full and delta passes, the inventory tool, fidelity sampling, and the human sign-off gate.
 
 Read [references/registry-api.md](references/registry-api.md) when you need:
 

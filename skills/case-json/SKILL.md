@@ -336,6 +336,10 @@ If the source is too incomplete to extract a full hierarchy, still produce the b
 
 For field-level details, see [data-model-reference.md](data-model-reference.md). For a sample package shape, see [examples/example_output.json](examples/example_output.json).
 
+## Phase 11: Quality-control handoff
+
+The written package is a first draft. Before delivering it as final, hand it to the opensalt-skill quality-control pass: structural validation (`../opensalt-skill/scripts/validate_case_package.py --strict`), the mechanical inventory (`../opensalt-skill/scripts/qc_inventory.py`), content-fidelity sampling against this source, and a QC report ending in human sign-off — see [../opensalt-skill/references/quality-control.md](../opensalt-skill/references/quality-control.md). Do not call the file final without that sign-off.
+
 ## Companion skill: opensalt-skill
 
 This repository also ships **opensalt-skill** (`../opensalt-skill/`), covering what this skill deliberately does not:
